@@ -1,0 +1,2322 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1260" viewBox="0 0 1500 1260">
+  <style>
+    .bg { fill: transparent; }
+    .skin { fill: #ffffff; stroke: #000000; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    .hair { fill: #000000; }
+    .feature { fill: none; stroke: #000000; stroke-width: 2.5; stroke-linecap: round; }
+    .dot { fill: #000000; }
+  </style>
+
+    <!-- Peep 0 -->
+    <g id="peep_0">
+      <!-- Torso -->
+      <path class="skin" d="M 10 180 L 18 117 Q 50 104.39999999999999 82 117 L 90 180 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 35 111.6 L 50 135 L 65 111.6" />
+      <!-- Neck -->
+      <rect class="skin" x="42" y="87" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="50" cy="72" r="30" />
+    
+        <circle class="hair" cx="30" cy="60" r="19.5" />
+        <circle class="hair" cx="50" cy="48" r="22.5" />
+        <circle class="hair" cx="70" cy="60" r="19.5" />
+      
+        <circle class="feature" cx="38" cy="70" r="9" />
+        <circle class="feature" cx="62" cy="70" r="9" />
+        <line class="feature" x1="47" y1="70" x2="53" y2="70" />
+        <circle class="dot" cx="38" cy="70" r="2.5" />
+        <circle class="dot" cx="62" cy="70" r="2.5" />
+      
+      <circle class="dot" cx="50" cy="78" r="2" />
+      <path class="feature" d="M 42 88 Q 50 94 58 88" />
+    </g>
+    
+    <!-- Peep 1 -->
+    <g id="peep_1">
+      <!-- Torso -->
+      <path class="skin" d="M 110 180 L 118 117 Q 150 104.39999999999999 182 117 L 190 180 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 135 111.6 L 150 135 L 165 111.6" />
+      <!-- Neck -->
+      <rect class="skin" x="142" y="87" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="150" cy="72" r="30" />
+    
+        <path class="hair" d="M 120 72 A 30 30 0 0 1 180 72 Z" />
+        <rect class="skin" x="118" y="64" width="64" height="14" rx="3" />
+      
+        <circle class="dot" cx="138" cy="70" r="3" />
+        <circle class="dot" cx="162" cy="70" r="3" />
+      
+      <circle class="dot" cx="150" cy="78" r="2" />
+      <path class="feature" d="M 142 88 Q 150 94 158 88" />
+    </g>
+    
+    <!-- Peep 2 -->
+    <g id="peep_2">
+      <!-- Torso -->
+      <path class="skin" d="M 210 180 L 218 117 Q 250 104.39999999999999 282 117 L 290 180 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 235 111.6 L 250 135 L 265 111.6" />
+      <!-- Neck -->
+      <rect class="skin" x="242" y="87" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="250" cy="72" r="30" />
+    
+        <rect class="hair" x="220" y="38" width="60" height="30" rx="4" />
+        <path class="feature" d="M 210 68 L 245 68" />
+      
+        <circle class="feature" cx="238" cy="70" r="9" />
+        <circle class="feature" cx="262" cy="70" r="9" />
+        <line class="feature" x1="247" y1="70" x2="253" y2="70" />
+        <circle class="dot" cx="238" cy="70" r="2.5" />
+        <circle class="dot" cx="262" cy="70" r="2.5" />
+      
+      <circle class="dot" cx="250" cy="78" r="2" />
+      <path class="feature" d="M 242 88 Q 250 94 258 88" />
+    </g>
+    
+    <!-- Peep 3 -->
+    <g id="peep_3">
+      <!-- Torso -->
+      <path class="skin" d="M 310 180 L 318 117 Q 350 104.39999999999999 382 117 L 390 180 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 335 111.6 L 350 135 L 365 111.6" />
+      <!-- Neck -->
+      <rect class="skin" x="342" y="87" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="350" cy="72" r="30" />
+    
+        <path class="hair" d="M 315 97 L 315 62 A 35 35 0 0 1 385 62 L 385 97 Z" />
+      
+        <circle class="dot" cx="338" cy="70" r="3" />
+        <circle class="dot" cx="362" cy="70" r="3" />
+      
+      <circle class="dot" cx="350" cy="78" r="2" />
+      <path class="feature" d="M 342 88 Q 350 94 358 88" />
+    </g>
+    
+    <!-- Peep 4 -->
+    <g id="peep_4">
+      <!-- Torso -->
+      <path class="skin" d="M 410 180 L 418 117 Q 450 104.39999999999999 482 117 L 490 180 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 435 111.6 L 450 135 L 465 111.6" />
+      <!-- Neck -->
+      <rect class="skin" x="442" y="87" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="450" cy="72" r="30" />
+    
+        <path class="hair" d="M 425 62 L 435 37 L 445 57 L 455 34 L 465 57 L 475 40 L 480 67 Z" />
+      
+        <circle class="feature" cx="438" cy="70" r="9" />
+        <circle class="feature" cx="462" cy="70" r="9" />
+        <line class="feature" x1="447" y1="70" x2="453" y2="70" />
+        <circle class="dot" cx="438" cy="70" r="2.5" />
+        <circle class="dot" cx="462" cy="70" r="2.5" />
+      
+      <circle class="dot" cx="450" cy="78" r="2" />
+      <path class="feature" d="M 442 88 Q 450 94 458 88" />
+    </g>
+    
+    <!-- Peep 5 -->
+    <g id="peep_5">
+      <!-- Torso -->
+      <path class="skin" d="M 510 180 L 518 117 Q 550 104.39999999999999 582 117 L 590 180 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 535 111.6 L 550 135 L 565 111.6" />
+      <!-- Neck -->
+      <rect class="skin" x="542" y="87" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="550" cy="72" r="30" />
+    
+        <path class="hair" d="M 520 67 A 30 30 0 0 1 580 67 Z" />
+      
+        <circle class="dot" cx="538" cy="70" r="3" />
+        <circle class="dot" cx="562" cy="70" r="3" />
+      
+      <circle class="dot" cx="550" cy="78" r="2" />
+      <path class="feature" d="M 542 88 Q 550 94 558 88" />
+    </g>
+    
+    <!-- Peep 6 -->
+    <g id="peep_6">
+      <!-- Torso -->
+      <path class="skin" d="M 610 180 L 618 117 Q 650 104.39999999999999 682 117 L 690 180 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 635 111.6 L 650 135 L 665 111.6" />
+      <!-- Neck -->
+      <rect class="skin" x="642" y="87" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="650" cy="72" r="30" />
+    
+        <path class="hair" d="M 620 67 A 30 30 0 0 1 680 67 Z" />
+      
+        <circle class="feature" cx="638" cy="70" r="9" />
+        <circle class="feature" cx="662" cy="70" r="9" />
+        <line class="feature" x1="647" y1="70" x2="653" y2="70" />
+        <circle class="dot" cx="638" cy="70" r="2.5" />
+        <circle class="dot" cx="662" cy="70" r="2.5" />
+      
+      <circle class="dot" cx="650" cy="78" r="2" />
+      <path class="feature" d="M 642 88 Q 650 94 658 88" />
+    </g>
+    
+    <!-- Peep 7 -->
+    <g id="peep_7">
+      <!-- Torso -->
+      <path class="skin" d="M 710 180 L 718 117 Q 750 104.39999999999999 782 117 L 790 180 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 735 111.6 L 750 135 L 765 111.6" />
+      <!-- Neck -->
+      <rect class="skin" x="742" y="87" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="750" cy="72" r="30" />
+    
+        <path class="hair" d="M 720 67 A 30 30 0 0 1 780 67 Z" />
+      
+        <circle class="dot" cx="738" cy="70" r="3" />
+        <circle class="dot" cx="762" cy="70" r="3" />
+      
+      <circle class="dot" cx="750" cy="78" r="2" />
+      <path class="feature" d="M 742 88 Q 750 94 758 88" />
+    </g>
+    
+    <!-- Peep 8 -->
+    <g id="peep_8">
+      <!-- Torso -->
+      <path class="skin" d="M 810 180 L 818 117 Q 850 104.39999999999999 882 117 L 890 180 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 835 111.6 L 850 135 L 865 111.6" />
+      <!-- Neck -->
+      <rect class="skin" x="842" y="87" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="850" cy="72" r="30" />
+    
+        <circle class="hair" cx="830" cy="60" r="19.5" />
+        <circle class="hair" cx="850" cy="48" r="22.5" />
+        <circle class="hair" cx="870" cy="60" r="19.5" />
+      
+        <circle class="feature" cx="838" cy="70" r="9" />
+        <circle class="feature" cx="862" cy="70" r="9" />
+        <line class="feature" x1="847" y1="70" x2="853" y2="70" />
+        <circle class="dot" cx="838" cy="70" r="2.5" />
+        <circle class="dot" cx="862" cy="70" r="2.5" />
+      
+      <circle class="dot" cx="850" cy="78" r="2" />
+      <path class="feature" d="M 842 88 Q 850 94 858 88" />
+    </g>
+    
+    <!-- Peep 9 -->
+    <g id="peep_9">
+      <!-- Torso -->
+      <path class="skin" d="M 910 180 L 918 117 Q 950 104.39999999999999 982 117 L 990 180 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 935 111.6 L 950 135 L 965 111.6" />
+      <!-- Neck -->
+      <rect class="skin" x="942" y="87" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="950" cy="72" r="30" />
+    
+        <path class="hair" d="M 920 72 A 30 30 0 0 1 980 72 Z" />
+        <rect class="skin" x="918" y="64" width="64" height="14" rx="3" />
+      
+        <circle class="dot" cx="938" cy="70" r="3" />
+        <circle class="dot" cx="962" cy="70" r="3" />
+      
+      <circle class="dot" cx="950" cy="78" r="2" />
+      <path class="feature" d="M 942 88 Q 950 94 958 88" />
+    </g>
+    
+    <!-- Peep 10 -->
+    <g id="peep_10">
+      <!-- Torso -->
+      <path class="skin" d="M 1010 180 L 1018 117 Q 1050 104.39999999999999 1082 117 L 1090 180 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1035 111.6 L 1050 135 L 1065 111.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1042" y="87" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1050" cy="72" r="30" />
+    
+        <rect class="hair" x="1020" y="38" width="60" height="30" rx="4" />
+        <path class="feature" d="M 1010 68 L 1045 68" />
+      
+        <circle class="feature" cx="1038" cy="70" r="9" />
+        <circle class="feature" cx="1062" cy="70" r="9" />
+        <line class="feature" x1="1047" y1="70" x2="1053" y2="70" />
+        <circle class="dot" cx="1038" cy="70" r="2.5" />
+        <circle class="dot" cx="1062" cy="70" r="2.5" />
+      
+      <circle class="dot" cx="1050" cy="78" r="2" />
+      <path class="feature" d="M 1042 88 Q 1050 94 1058 88" />
+    </g>
+    
+    <!-- Peep 11 -->
+    <g id="peep_11">
+      <!-- Torso -->
+      <path class="skin" d="M 1110 180 L 1118 117 Q 1150 104.39999999999999 1182 117 L 1190 180 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1135 111.6 L 1150 135 L 1165 111.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1142" y="87" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1150" cy="72" r="30" />
+    
+        <path class="hair" d="M 1115 97 L 1115 62 A 35 35 0 0 1 1185 62 L 1185 97 Z" />
+      
+        <circle class="dot" cx="1138" cy="70" r="3" />
+        <circle class="dot" cx="1162" cy="70" r="3" />
+      
+      <circle class="dot" cx="1150" cy="78" r="2" />
+      <path class="feature" d="M 1142 88 Q 1150 94 1158 88" />
+    </g>
+    
+    <!-- Peep 12 -->
+    <g id="peep_12">
+      <!-- Torso -->
+      <path class="skin" d="M 1210 180 L 1218 117 Q 1250 104.39999999999999 1282 117 L 1290 180 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1235 111.6 L 1250 135 L 1265 111.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1242" y="87" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1250" cy="72" r="30" />
+    
+        <path class="hair" d="M 1225 62 L 1235 37 L 1245 57 L 1255 34 L 1265 57 L 1275 40 L 1280 67 Z" />
+      
+        <circle class="feature" cx="1238" cy="70" r="9" />
+        <circle class="feature" cx="1262" cy="70" r="9" />
+        <line class="feature" x1="1247" y1="70" x2="1253" y2="70" />
+        <circle class="dot" cx="1238" cy="70" r="2.5" />
+        <circle class="dot" cx="1262" cy="70" r="2.5" />
+      
+      <circle class="dot" cx="1250" cy="78" r="2" />
+      <path class="feature" d="M 1242 88 Q 1250 94 1258 88" />
+    </g>
+    
+    <!-- Peep 13 -->
+    <g id="peep_13">
+      <!-- Torso -->
+      <path class="skin" d="M 1310 180 L 1318 117 Q 1350 104.39999999999999 1382 117 L 1390 180 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1335 111.6 L 1350 135 L 1365 111.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1342" y="87" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1350" cy="72" r="30" />
+    
+        <path class="hair" d="M 1320 67 A 30 30 0 0 1 1380 67 Z" />
+      
+        <circle class="dot" cx="1338" cy="70" r="3" />
+        <circle class="dot" cx="1362" cy="70" r="3" />
+      
+      <circle class="dot" cx="1350" cy="78" r="2" />
+      <path class="feature" d="M 1342 88 Q 1350 94 1358 88" />
+    </g>
+    
+    <!-- Peep 14 -->
+    <g id="peep_14">
+      <!-- Torso -->
+      <path class="skin" d="M 1410 180 L 1418 117 Q 1450 104.39999999999999 1482 117 L 1490 180 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1435 111.6 L 1450 135 L 1465 111.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1442" y="87" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1450" cy="72" r="30" />
+    
+        <path class="hair" d="M 1420 67 A 30 30 0 0 1 1480 67 Z" />
+      
+        <circle class="feature" cx="1438" cy="70" r="9" />
+        <circle class="feature" cx="1462" cy="70" r="9" />
+        <line class="feature" x1="1447" y1="70" x2="1453" y2="70" />
+        <circle class="dot" cx="1438" cy="70" r="2.5" />
+        <circle class="dot" cx="1462" cy="70" r="2.5" />
+      
+      <circle class="dot" cx="1450" cy="78" r="2" />
+      <path class="feature" d="M 1442 88 Q 1450 94 1458 88" />
+    </g>
+    
+    <!-- Peep 15 -->
+    <g id="peep_15">
+      <!-- Torso -->
+      <path class="skin" d="M 10 360 L 18 297 Q 50 284.4 82 297 L 90 360 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 35 291.6 L 50 315 L 65 291.6" />
+      <!-- Neck -->
+      <rect class="skin" x="42" y="267" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="50" cy="252" r="30" />
+    
+        <path class="hair" d="M 20 247 A 30 30 0 0 1 80 247 Z" />
+      
+        <circle class="dot" cx="38" cy="250" r="3" />
+        <circle class="dot" cx="62" cy="250" r="3" />
+      
+      <circle class="dot" cx="50" cy="258" r="2" />
+      <path class="feature" d="M 42 268 Q 50 274 58 268" />
+    </g>
+    
+    <!-- Peep 16 -->
+    <g id="peep_16">
+      <!-- Torso -->
+      <path class="skin" d="M 110 360 L 118 297 Q 150 284.4 182 297 L 190 360 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 135 291.6 L 150 315 L 165 291.6" />
+      <!-- Neck -->
+      <rect class="skin" x="142" y="267" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="150" cy="252" r="30" />
+    
+        <circle class="hair" cx="130" cy="240" r="19.5" />
+        <circle class="hair" cx="150" cy="228" r="22.5" />
+        <circle class="hair" cx="170" cy="240" r="19.5" />
+      
+        <circle class="feature" cx="138" cy="250" r="9" />
+        <circle class="feature" cx="162" cy="250" r="9" />
+        <line class="feature" x1="147" y1="250" x2="153" y2="250" />
+        <circle class="dot" cx="138" cy="250" r="2.5" />
+        <circle class="dot" cx="162" cy="250" r="2.5" />
+      
+      <circle class="dot" cx="150" cy="258" r="2" />
+      <path class="feature" d="M 142 268 Q 150 274 158 268" />
+    </g>
+    
+    <!-- Peep 17 -->
+    <g id="peep_17">
+      <!-- Torso -->
+      <path class="skin" d="M 210 360 L 218 297 Q 250 284.4 282 297 L 290 360 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 235 291.6 L 250 315 L 265 291.6" />
+      <!-- Neck -->
+      <rect class="skin" x="242" y="267" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="250" cy="252" r="30" />
+    
+        <path class="hair" d="M 220 252 A 30 30 0 0 1 280 252 Z" />
+        <rect class="skin" x="218" y="244" width="64" height="14" rx="3" />
+      
+        <circle class="dot" cx="238" cy="250" r="3" />
+        <circle class="dot" cx="262" cy="250" r="3" />
+      
+      <circle class="dot" cx="250" cy="258" r="2" />
+      <path class="feature" d="M 242 268 Q 250 274 258 268" />
+    </g>
+    
+    <!-- Peep 18 -->
+    <g id="peep_18">
+      <!-- Torso -->
+      <path class="skin" d="M 310 360 L 318 297 Q 350 284.4 382 297 L 390 360 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 335 291.6 L 350 315 L 365 291.6" />
+      <!-- Neck -->
+      <rect class="skin" x="342" y="267" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="350" cy="252" r="30" />
+    
+        <rect class="hair" x="320" y="218" width="60" height="30" rx="4" />
+        <path class="feature" d="M 310 248 L 345 248" />
+      
+        <circle class="feature" cx="338" cy="250" r="9" />
+        <circle class="feature" cx="362" cy="250" r="9" />
+        <line class="feature" x1="347" y1="250" x2="353" y2="250" />
+        <circle class="dot" cx="338" cy="250" r="2.5" />
+        <circle class="dot" cx="362" cy="250" r="2.5" />
+      
+      <circle class="dot" cx="350" cy="258" r="2" />
+      <path class="feature" d="M 342 268 Q 350 274 358 268" />
+    </g>
+    
+    <!-- Peep 19 -->
+    <g id="peep_19">
+      <!-- Torso -->
+      <path class="skin" d="M 410 360 L 418 297 Q 450 284.4 482 297 L 490 360 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 435 291.6 L 450 315 L 465 291.6" />
+      <!-- Neck -->
+      <rect class="skin" x="442" y="267" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="450" cy="252" r="30" />
+    
+        <path class="hair" d="M 415 277 L 415 242 A 35 35 0 0 1 485 242 L 485 277 Z" />
+      
+        <circle class="dot" cx="438" cy="250" r="3" />
+        <circle class="dot" cx="462" cy="250" r="3" />
+      
+      <circle class="dot" cx="450" cy="258" r="2" />
+      <path class="feature" d="M 442 268 Q 450 274 458 268" />
+    </g>
+    
+    <!-- Peep 20 -->
+    <g id="peep_20">
+      <!-- Torso -->
+      <path class="skin" d="M 510 360 L 518 297 Q 550 284.4 582 297 L 590 360 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 535 291.6 L 550 315 L 565 291.6" />
+      <!-- Neck -->
+      <rect class="skin" x="542" y="267" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="550" cy="252" r="30" />
+    
+        <path class="hair" d="M 525 242 L 535 217 L 545 237 L 555 214 L 565 237 L 575 220 L 580 247 Z" />
+      
+        <circle class="feature" cx="538" cy="250" r="9" />
+        <circle class="feature" cx="562" cy="250" r="9" />
+        <line class="feature" x1="547" y1="250" x2="553" y2="250" />
+        <circle class="dot" cx="538" cy="250" r="2.5" />
+        <circle class="dot" cx="562" cy="250" r="2.5" />
+      
+      <circle class="dot" cx="550" cy="258" r="2" />
+      <path class="feature" d="M 542 268 Q 550 274 558 268" />
+    </g>
+    
+    <!-- Peep 21 -->
+    <g id="peep_21">
+      <!-- Torso -->
+      <path class="skin" d="M 610 360 L 618 297 Q 650 284.4 682 297 L 690 360 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 635 291.6 L 650 315 L 665 291.6" />
+      <!-- Neck -->
+      <rect class="skin" x="642" y="267" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="650" cy="252" r="30" />
+    
+        <path class="hair" d="M 620 247 A 30 30 0 0 1 680 247 Z" />
+      
+        <circle class="dot" cx="638" cy="250" r="3" />
+        <circle class="dot" cx="662" cy="250" r="3" />
+      
+      <circle class="dot" cx="650" cy="258" r="2" />
+      <path class="feature" d="M 642 268 Q 650 274 658 268" />
+    </g>
+    
+    <!-- Peep 22 -->
+    <g id="peep_22">
+      <!-- Torso -->
+      <path class="skin" d="M 710 360 L 718 297 Q 750 284.4 782 297 L 790 360 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 735 291.6 L 750 315 L 765 291.6" />
+      <!-- Neck -->
+      <rect class="skin" x="742" y="267" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="750" cy="252" r="30" />
+    
+        <path class="hair" d="M 720 247 A 30 30 0 0 1 780 247 Z" />
+      
+        <circle class="feature" cx="738" cy="250" r="9" />
+        <circle class="feature" cx="762" cy="250" r="9" />
+        <line class="feature" x1="747" y1="250" x2="753" y2="250" />
+        <circle class="dot" cx="738" cy="250" r="2.5" />
+        <circle class="dot" cx="762" cy="250" r="2.5" />
+      
+      <circle class="dot" cx="750" cy="258" r="2" />
+      <path class="feature" d="M 742 268 Q 750 274 758 268" />
+    </g>
+    
+    <!-- Peep 23 -->
+    <g id="peep_23">
+      <!-- Torso -->
+      <path class="skin" d="M 810 360 L 818 297 Q 850 284.4 882 297 L 890 360 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 835 291.6 L 850 315 L 865 291.6" />
+      <!-- Neck -->
+      <rect class="skin" x="842" y="267" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="850" cy="252" r="30" />
+    
+        <path class="hair" d="M 820 247 A 30 30 0 0 1 880 247 Z" />
+      
+        <circle class="dot" cx="838" cy="250" r="3" />
+        <circle class="dot" cx="862" cy="250" r="3" />
+      
+      <circle class="dot" cx="850" cy="258" r="2" />
+      <path class="feature" d="M 842 268 Q 850 274 858 268" />
+    </g>
+    
+    <!-- Peep 24 -->
+    <g id="peep_24">
+      <!-- Torso -->
+      <path class="skin" d="M 910 360 L 918 297 Q 950 284.4 982 297 L 990 360 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 935 291.6 L 950 315 L 965 291.6" />
+      <!-- Neck -->
+      <rect class="skin" x="942" y="267" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="950" cy="252" r="30" />
+    
+        <circle class="hair" cx="930" cy="240" r="19.5" />
+        <circle class="hair" cx="950" cy="228" r="22.5" />
+        <circle class="hair" cx="970" cy="240" r="19.5" />
+      
+        <circle class="feature" cx="938" cy="250" r="9" />
+        <circle class="feature" cx="962" cy="250" r="9" />
+        <line class="feature" x1="947" y1="250" x2="953" y2="250" />
+        <circle class="dot" cx="938" cy="250" r="2.5" />
+        <circle class="dot" cx="962" cy="250" r="2.5" />
+      
+      <circle class="dot" cx="950" cy="258" r="2" />
+      <path class="feature" d="M 942 268 Q 950 274 958 268" />
+    </g>
+    
+    <!-- Peep 25 -->
+    <g id="peep_25">
+      <!-- Torso -->
+      <path class="skin" d="M 1010 360 L 1018 297 Q 1050 284.4 1082 297 L 1090 360 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1035 291.6 L 1050 315 L 1065 291.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1042" y="267" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1050" cy="252" r="30" />
+    
+        <path class="hair" d="M 1020 252 A 30 30 0 0 1 1080 252 Z" />
+        <rect class="skin" x="1018" y="244" width="64" height="14" rx="3" />
+      
+        <circle class="dot" cx="1038" cy="250" r="3" />
+        <circle class="dot" cx="1062" cy="250" r="3" />
+      
+      <circle class="dot" cx="1050" cy="258" r="2" />
+      <path class="feature" d="M 1042 268 Q 1050 274 1058 268" />
+    </g>
+    
+    <!-- Peep 26 -->
+    <g id="peep_26">
+      <!-- Torso -->
+      <path class="skin" d="M 1110 360 L 1118 297 Q 1150 284.4 1182 297 L 1190 360 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1135 291.6 L 1150 315 L 1165 291.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1142" y="267" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1150" cy="252" r="30" />
+    
+        <rect class="hair" x="1120" y="218" width="60" height="30" rx="4" />
+        <path class="feature" d="M 1110 248 L 1145 248" />
+      
+        <circle class="feature" cx="1138" cy="250" r="9" />
+        <circle class="feature" cx="1162" cy="250" r="9" />
+        <line class="feature" x1="1147" y1="250" x2="1153" y2="250" />
+        <circle class="dot" cx="1138" cy="250" r="2.5" />
+        <circle class="dot" cx="1162" cy="250" r="2.5" />
+      
+      <circle class="dot" cx="1150" cy="258" r="2" />
+      <path class="feature" d="M 1142 268 Q 1150 274 1158 268" />
+    </g>
+    
+    <!-- Peep 27 -->
+    <g id="peep_27">
+      <!-- Torso -->
+      <path class="skin" d="M 1210 360 L 1218 297 Q 1250 284.4 1282 297 L 1290 360 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1235 291.6 L 1250 315 L 1265 291.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1242" y="267" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1250" cy="252" r="30" />
+    
+        <path class="hair" d="M 1215 277 L 1215 242 A 35 35 0 0 1 1285 242 L 1285 277 Z" />
+      
+        <circle class="dot" cx="1238" cy="250" r="3" />
+        <circle class="dot" cx="1262" cy="250" r="3" />
+      
+      <circle class="dot" cx="1250" cy="258" r="2" />
+      <path class="feature" d="M 1242 268 Q 1250 274 1258 268" />
+    </g>
+    
+    <!-- Peep 28 -->
+    <g id="peep_28">
+      <!-- Torso -->
+      <path class="skin" d="M 1310 360 L 1318 297 Q 1350 284.4 1382 297 L 1390 360 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1335 291.6 L 1350 315 L 1365 291.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1342" y="267" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1350" cy="252" r="30" />
+    
+        <path class="hair" d="M 1325 242 L 1335 217 L 1345 237 L 1355 214 L 1365 237 L 1375 220 L 1380 247 Z" />
+      
+        <circle class="feature" cx="1338" cy="250" r="9" />
+        <circle class="feature" cx="1362" cy="250" r="9" />
+        <line class="feature" x1="1347" y1="250" x2="1353" y2="250" />
+        <circle class="dot" cx="1338" cy="250" r="2.5" />
+        <circle class="dot" cx="1362" cy="250" r="2.5" />
+      
+      <circle class="dot" cx="1350" cy="258" r="2" />
+      <path class="feature" d="M 1342 268 Q 1350 274 1358 268" />
+    </g>
+    
+    <!-- Peep 29 -->
+    <g id="peep_29">
+      <!-- Torso -->
+      <path class="skin" d="M 1410 360 L 1418 297 Q 1450 284.4 1482 297 L 1490 360 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1435 291.6 L 1450 315 L 1465 291.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1442" y="267" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1450" cy="252" r="30" />
+    
+        <path class="hair" d="M 1420 247 A 30 30 0 0 1 1480 247 Z" />
+      
+        <circle class="dot" cx="1438" cy="250" r="3" />
+        <circle class="dot" cx="1462" cy="250" r="3" />
+      
+      <circle class="dot" cx="1450" cy="258" r="2" />
+      <path class="feature" d="M 1442 268 Q 1450 274 1458 268" />
+    </g>
+    
+    <!-- Peep 30 -->
+    <g id="peep_30">
+      <!-- Torso -->
+      <path class="skin" d="M 10 540 L 18 477 Q 50 464.4 82 477 L 90 540 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 35 471.6 L 50 495 L 65 471.6" />
+      <!-- Neck -->
+      <rect class="skin" x="42" y="447" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="50" cy="432" r="30" />
+    
+        <path class="hair" d="M 20 427 A 30 30 0 0 1 80 427 Z" />
+      
+        <circle class="feature" cx="38" cy="430" r="9" />
+        <circle class="feature" cx="62" cy="430" r="9" />
+        <line class="feature" x1="47" y1="430" x2="53" y2="430" />
+        <circle class="dot" cx="38" cy="430" r="2.5" />
+        <circle class="dot" cx="62" cy="430" r="2.5" />
+      
+      <circle class="dot" cx="50" cy="438" r="2" />
+      <path class="feature" d="M 42 448 Q 50 454 58 448" />
+    </g>
+    
+    <!-- Peep 31 -->
+    <g id="peep_31">
+      <!-- Torso -->
+      <path class="skin" d="M 110 540 L 118 477 Q 150 464.4 182 477 L 190 540 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 135 471.6 L 150 495 L 165 471.6" />
+      <!-- Neck -->
+      <rect class="skin" x="142" y="447" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="150" cy="432" r="30" />
+    
+        <path class="hair" d="M 120 427 A 30 30 0 0 1 180 427 Z" />
+      
+        <circle class="dot" cx="138" cy="430" r="3" />
+        <circle class="dot" cx="162" cy="430" r="3" />
+      
+      <circle class="dot" cx="150" cy="438" r="2" />
+      <path class="feature" d="M 142 448 Q 150 454 158 448" />
+    </g>
+    
+    <!-- Peep 32 -->
+    <g id="peep_32">
+      <!-- Torso -->
+      <path class="skin" d="M 210 540 L 218 477 Q 250 464.4 282 477 L 290 540 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 235 471.6 L 250 495 L 265 471.6" />
+      <!-- Neck -->
+      <rect class="skin" x="242" y="447" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="250" cy="432" r="30" />
+    
+        <circle class="hair" cx="230" cy="420" r="19.5" />
+        <circle class="hair" cx="250" cy="408" r="22.5" />
+        <circle class="hair" cx="270" cy="420" r="19.5" />
+      
+        <circle class="feature" cx="238" cy="430" r="9" />
+        <circle class="feature" cx="262" cy="430" r="9" />
+        <line class="feature" x1="247" y1="430" x2="253" y2="430" />
+        <circle class="dot" cx="238" cy="430" r="2.5" />
+        <circle class="dot" cx="262" cy="430" r="2.5" />
+      
+      <circle class="dot" cx="250" cy="438" r="2" />
+      <path class="feature" d="M 242 448 Q 250 454 258 448" />
+    </g>
+    
+    <!-- Peep 33 -->
+    <g id="peep_33">
+      <!-- Torso -->
+      <path class="skin" d="M 310 540 L 318 477 Q 350 464.4 382 477 L 390 540 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 335 471.6 L 350 495 L 365 471.6" />
+      <!-- Neck -->
+      <rect class="skin" x="342" y="447" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="350" cy="432" r="30" />
+    
+        <path class="hair" d="M 320 432 A 30 30 0 0 1 380 432 Z" />
+        <rect class="skin" x="318" y="424" width="64" height="14" rx="3" />
+      
+        <circle class="dot" cx="338" cy="430" r="3" />
+        <circle class="dot" cx="362" cy="430" r="3" />
+      
+      <circle class="dot" cx="350" cy="438" r="2" />
+      <path class="feature" d="M 342 448 Q 350 454 358 448" />
+    </g>
+    
+    <!-- Peep 34 -->
+    <g id="peep_34">
+      <!-- Torso -->
+      <path class="skin" d="M 410 540 L 418 477 Q 450 464.4 482 477 L 490 540 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 435 471.6 L 450 495 L 465 471.6" />
+      <!-- Neck -->
+      <rect class="skin" x="442" y="447" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="450" cy="432" r="30" />
+    
+        <rect class="hair" x="420" y="398" width="60" height="30" rx="4" />
+        <path class="feature" d="M 410 428 L 445 428" />
+      
+        <circle class="feature" cx="438" cy="430" r="9" />
+        <circle class="feature" cx="462" cy="430" r="9" />
+        <line class="feature" x1="447" y1="430" x2="453" y2="430" />
+        <circle class="dot" cx="438" cy="430" r="2.5" />
+        <circle class="dot" cx="462" cy="430" r="2.5" />
+      
+      <circle class="dot" cx="450" cy="438" r="2" />
+      <path class="feature" d="M 442 448 Q 450 454 458 448" />
+    </g>
+    
+    <!-- Peep 35 -->
+    <g id="peep_35">
+      <!-- Torso -->
+      <path class="skin" d="M 510 540 L 518 477 Q 550 464.4 582 477 L 590 540 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 535 471.6 L 550 495 L 565 471.6" />
+      <!-- Neck -->
+      <rect class="skin" x="542" y="447" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="550" cy="432" r="30" />
+    
+        <path class="hair" d="M 515 457 L 515 422 A 35 35 0 0 1 585 422 L 585 457 Z" />
+      
+        <circle class="dot" cx="538" cy="430" r="3" />
+        <circle class="dot" cx="562" cy="430" r="3" />
+      
+      <circle class="dot" cx="550" cy="438" r="2" />
+      <path class="feature" d="M 542 448 Q 550 454 558 448" />
+    </g>
+    
+    <!-- Peep 36 -->
+    <g id="peep_36">
+      <!-- Torso -->
+      <path class="skin" d="M 610 540 L 618 477 Q 650 464.4 682 477 L 690 540 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 635 471.6 L 650 495 L 665 471.6" />
+      <!-- Neck -->
+      <rect class="skin" x="642" y="447" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="650" cy="432" r="30" />
+    
+        <path class="hair" d="M 625 422 L 635 397 L 645 417 L 655 394 L 665 417 L 675 400 L 680 427 Z" />
+      
+        <circle class="feature" cx="638" cy="430" r="9" />
+        <circle class="feature" cx="662" cy="430" r="9" />
+        <line class="feature" x1="647" y1="430" x2="653" y2="430" />
+        <circle class="dot" cx="638" cy="430" r="2.5" />
+        <circle class="dot" cx="662" cy="430" r="2.5" />
+      
+      <circle class="dot" cx="650" cy="438" r="2" />
+      <path class="feature" d="M 642 448 Q 650 454 658 448" />
+    </g>
+    
+    <!-- Peep 37 -->
+    <g id="peep_37">
+      <!-- Torso -->
+      <path class="skin" d="M 710 540 L 718 477 Q 750 464.4 782 477 L 790 540 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 735 471.6 L 750 495 L 765 471.6" />
+      <!-- Neck -->
+      <rect class="skin" x="742" y="447" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="750" cy="432" r="30" />
+    
+        <path class="hair" d="M 720 427 A 30 30 0 0 1 780 427 Z" />
+      
+        <circle class="dot" cx="738" cy="430" r="3" />
+        <circle class="dot" cx="762" cy="430" r="3" />
+      
+      <circle class="dot" cx="750" cy="438" r="2" />
+      <path class="feature" d="M 742 448 Q 750 454 758 448" />
+    </g>
+    
+    <!-- Peep 38 -->
+    <g id="peep_38">
+      <!-- Torso -->
+      <path class="skin" d="M 810 540 L 818 477 Q 850 464.4 882 477 L 890 540 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 835 471.6 L 850 495 L 865 471.6" />
+      <!-- Neck -->
+      <rect class="skin" x="842" y="447" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="850" cy="432" r="30" />
+    
+        <path class="hair" d="M 820 427 A 30 30 0 0 1 880 427 Z" />
+      
+        <circle class="feature" cx="838" cy="430" r="9" />
+        <circle class="feature" cx="862" cy="430" r="9" />
+        <line class="feature" x1="847" y1="430" x2="853" y2="430" />
+        <circle class="dot" cx="838" cy="430" r="2.5" />
+        <circle class="dot" cx="862" cy="430" r="2.5" />
+      
+      <circle class="dot" cx="850" cy="438" r="2" />
+      <path class="feature" d="M 842 448 Q 850 454 858 448" />
+    </g>
+    
+    <!-- Peep 39 -->
+    <g id="peep_39">
+      <!-- Torso -->
+      <path class="skin" d="M 910 540 L 918 477 Q 950 464.4 982 477 L 990 540 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 935 471.6 L 950 495 L 965 471.6" />
+      <!-- Neck -->
+      <rect class="skin" x="942" y="447" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="950" cy="432" r="30" />
+    
+        <path class="hair" d="M 920 427 A 30 30 0 0 1 980 427 Z" />
+      
+        <circle class="dot" cx="938" cy="430" r="3" />
+        <circle class="dot" cx="962" cy="430" r="3" />
+      
+      <circle class="dot" cx="950" cy="438" r="2" />
+      <path class="feature" d="M 942 448 Q 950 454 958 448" />
+    </g>
+    
+    <!-- Peep 40 -->
+    <g id="peep_40">
+      <!-- Torso -->
+      <path class="skin" d="M 1010 540 L 1018 477 Q 1050 464.4 1082 477 L 1090 540 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1035 471.6 L 1050 495 L 1065 471.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1042" y="447" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1050" cy="432" r="30" />
+    
+        <circle class="hair" cx="1030" cy="420" r="19.5" />
+        <circle class="hair" cx="1050" cy="408" r="22.5" />
+        <circle class="hair" cx="1070" cy="420" r="19.5" />
+      
+        <circle class="feature" cx="1038" cy="430" r="9" />
+        <circle class="feature" cx="1062" cy="430" r="9" />
+        <line class="feature" x1="1047" y1="430" x2="1053" y2="430" />
+        <circle class="dot" cx="1038" cy="430" r="2.5" />
+        <circle class="dot" cx="1062" cy="430" r="2.5" />
+      
+      <circle class="dot" cx="1050" cy="438" r="2" />
+      <path class="feature" d="M 1042 448 Q 1050 454 1058 448" />
+    </g>
+    
+    <!-- Peep 41 -->
+    <g id="peep_41">
+      <!-- Torso -->
+      <path class="skin" d="M 1110 540 L 1118 477 Q 1150 464.4 1182 477 L 1190 540 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1135 471.6 L 1150 495 L 1165 471.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1142" y="447" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1150" cy="432" r="30" />
+    
+        <path class="hair" d="M 1120 432 A 30 30 0 0 1 1180 432 Z" />
+        <rect class="skin" x="1118" y="424" width="64" height="14" rx="3" />
+      
+        <circle class="dot" cx="1138" cy="430" r="3" />
+        <circle class="dot" cx="1162" cy="430" r="3" />
+      
+      <circle class="dot" cx="1150" cy="438" r="2" />
+      <path class="feature" d="M 1142 448 Q 1150 454 1158 448" />
+    </g>
+    
+    <!-- Peep 42 -->
+    <g id="peep_42">
+      <!-- Torso -->
+      <path class="skin" d="M 1210 540 L 1218 477 Q 1250 464.4 1282 477 L 1290 540 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1235 471.6 L 1250 495 L 1265 471.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1242" y="447" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1250" cy="432" r="30" />
+    
+        <rect class="hair" x="1220" y="398" width="60" height="30" rx="4" />
+        <path class="feature" d="M 1210 428 L 1245 428" />
+      
+        <circle class="feature" cx="1238" cy="430" r="9" />
+        <circle class="feature" cx="1262" cy="430" r="9" />
+        <line class="feature" x1="1247" y1="430" x2="1253" y2="430" />
+        <circle class="dot" cx="1238" cy="430" r="2.5" />
+        <circle class="dot" cx="1262" cy="430" r="2.5" />
+      
+      <circle class="dot" cx="1250" cy="438" r="2" />
+      <path class="feature" d="M 1242 448 Q 1250 454 1258 448" />
+    </g>
+    
+    <!-- Peep 43 -->
+    <g id="peep_43">
+      <!-- Torso -->
+      <path class="skin" d="M 1310 540 L 1318 477 Q 1350 464.4 1382 477 L 1390 540 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1335 471.6 L 1350 495 L 1365 471.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1342" y="447" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1350" cy="432" r="30" />
+    
+        <path class="hair" d="M 1315 457 L 1315 422 A 35 35 0 0 1 1385 422 L 1385 457 Z" />
+      
+        <circle class="dot" cx="1338" cy="430" r="3" />
+        <circle class="dot" cx="1362" cy="430" r="3" />
+      
+      <circle class="dot" cx="1350" cy="438" r="2" />
+      <path class="feature" d="M 1342 448 Q 1350 454 1358 448" />
+    </g>
+    
+    <!-- Peep 44 -->
+    <g id="peep_44">
+      <!-- Torso -->
+      <path class="skin" d="M 1410 540 L 1418 477 Q 1450 464.4 1482 477 L 1490 540 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1435 471.6 L 1450 495 L 1465 471.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1442" y="447" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1450" cy="432" r="30" />
+    
+        <path class="hair" d="M 1425 422 L 1435 397 L 1445 417 L 1455 394 L 1465 417 L 1475 400 L 1480 427 Z" />
+      
+        <circle class="feature" cx="1438" cy="430" r="9" />
+        <circle class="feature" cx="1462" cy="430" r="9" />
+        <line class="feature" x1="1447" y1="430" x2="1453" y2="430" />
+        <circle class="dot" cx="1438" cy="430" r="2.5" />
+        <circle class="dot" cx="1462" cy="430" r="2.5" />
+      
+      <circle class="dot" cx="1450" cy="438" r="2" />
+      <path class="feature" d="M 1442 448 Q 1450 454 1458 448" />
+    </g>
+    
+    <!-- Peep 45 -->
+    <g id="peep_45">
+      <!-- Torso -->
+      <path class="skin" d="M 10 720 L 18 657 Q 50 644.4 82 657 L 90 720 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 35 651.6 L 50 675 L 65 651.6" />
+      <!-- Neck -->
+      <rect class="skin" x="42" y="627" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="50" cy="612" r="30" />
+    
+        <path class="hair" d="M 20 607 A 30 30 0 0 1 80 607 Z" />
+      
+        <circle class="dot" cx="38" cy="610" r="3" />
+        <circle class="dot" cx="62" cy="610" r="3" />
+      
+      <circle class="dot" cx="50" cy="618" r="2" />
+      <path class="feature" d="M 42 628 Q 50 634 58 628" />
+    </g>
+    
+    <!-- Peep 46 -->
+    <g id="peep_46">
+      <!-- Torso -->
+      <path class="skin" d="M 110 720 L 118 657 Q 150 644.4 182 657 L 190 720 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 135 651.6 L 150 675 L 165 651.6" />
+      <!-- Neck -->
+      <rect class="skin" x="142" y="627" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="150" cy="612" r="30" />
+    
+        <path class="hair" d="M 120 607 A 30 30 0 0 1 180 607 Z" />
+      
+        <circle class="feature" cx="138" cy="610" r="9" />
+        <circle class="feature" cx="162" cy="610" r="9" />
+        <line class="feature" x1="147" y1="610" x2="153" y2="610" />
+        <circle class="dot" cx="138" cy="610" r="2.5" />
+        <circle class="dot" cx="162" cy="610" r="2.5" />
+      
+      <circle class="dot" cx="150" cy="618" r="2" />
+      <path class="feature" d="M 142 628 Q 150 634 158 628" />
+    </g>
+    
+    <!-- Peep 47 -->
+    <g id="peep_47">
+      <!-- Torso -->
+      <path class="skin" d="M 210 720 L 218 657 Q 250 644.4 282 657 L 290 720 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 235 651.6 L 250 675 L 265 651.6" />
+      <!-- Neck -->
+      <rect class="skin" x="242" y="627" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="250" cy="612" r="30" />
+    
+        <path class="hair" d="M 220 607 A 30 30 0 0 1 280 607 Z" />
+      
+        <circle class="dot" cx="238" cy="610" r="3" />
+        <circle class="dot" cx="262" cy="610" r="3" />
+      
+      <circle class="dot" cx="250" cy="618" r="2" />
+      <path class="feature" d="M 242 628 Q 250 634 258 628" />
+    </g>
+    
+    <!-- Peep 48 -->
+    <g id="peep_48">
+      <!-- Torso -->
+      <path class="skin" d="M 310 720 L 318 657 Q 350 644.4 382 657 L 390 720 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 335 651.6 L 350 675 L 365 651.6" />
+      <!-- Neck -->
+      <rect class="skin" x="342" y="627" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="350" cy="612" r="30" />
+    
+        <circle class="hair" cx="330" cy="600" r="19.5" />
+        <circle class="hair" cx="350" cy="588" r="22.5" />
+        <circle class="hair" cx="370" cy="600" r="19.5" />
+      
+        <circle class="feature" cx="338" cy="610" r="9" />
+        <circle class="feature" cx="362" cy="610" r="9" />
+        <line class="feature" x1="347" y1="610" x2="353" y2="610" />
+        <circle class="dot" cx="338" cy="610" r="2.5" />
+        <circle class="dot" cx="362" cy="610" r="2.5" />
+      
+      <circle class="dot" cx="350" cy="618" r="2" />
+      <path class="feature" d="M 342 628 Q 350 634 358 628" />
+    </g>
+    
+    <!-- Peep 49 -->
+    <g id="peep_49">
+      <!-- Torso -->
+      <path class="skin" d="M 410 720 L 418 657 Q 450 644.4 482 657 L 490 720 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 435 651.6 L 450 675 L 465 651.6" />
+      <!-- Neck -->
+      <rect class="skin" x="442" y="627" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="450" cy="612" r="30" />
+    
+        <path class="hair" d="M 420 612 A 30 30 0 0 1 480 612 Z" />
+        <rect class="skin" x="418" y="604" width="64" height="14" rx="3" />
+      
+        <circle class="dot" cx="438" cy="610" r="3" />
+        <circle class="dot" cx="462" cy="610" r="3" />
+      
+      <circle class="dot" cx="450" cy="618" r="2" />
+      <path class="feature" d="M 442 628 Q 450 634 458 628" />
+    </g>
+    
+    <!-- Peep 50 -->
+    <g id="peep_50">
+      <!-- Torso -->
+      <path class="skin" d="M 510 720 L 518 657 Q 550 644.4 582 657 L 590 720 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 535 651.6 L 550 675 L 565 651.6" />
+      <!-- Neck -->
+      <rect class="skin" x="542" y="627" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="550" cy="612" r="30" />
+    
+        <rect class="hair" x="520" y="578" width="60" height="30" rx="4" />
+        <path class="feature" d="M 510 608 L 545 608" />
+      
+        <circle class="feature" cx="538" cy="610" r="9" />
+        <circle class="feature" cx="562" cy="610" r="9" />
+        <line class="feature" x1="547" y1="610" x2="553" y2="610" />
+        <circle class="dot" cx="538" cy="610" r="2.5" />
+        <circle class="dot" cx="562" cy="610" r="2.5" />
+      
+      <circle class="dot" cx="550" cy="618" r="2" />
+      <path class="feature" d="M 542 628 Q 550 634 558 628" />
+    </g>
+    
+    <!-- Peep 51 -->
+    <g id="peep_51">
+      <!-- Torso -->
+      <path class="skin" d="M 610 720 L 618 657 Q 650 644.4 682 657 L 690 720 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 635 651.6 L 650 675 L 665 651.6" />
+      <!-- Neck -->
+      <rect class="skin" x="642" y="627" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="650" cy="612" r="30" />
+    
+        <path class="hair" d="M 615 637 L 615 602 A 35 35 0 0 1 685 602 L 685 637 Z" />
+      
+        <circle class="dot" cx="638" cy="610" r="3" />
+        <circle class="dot" cx="662" cy="610" r="3" />
+      
+      <circle class="dot" cx="650" cy="618" r="2" />
+      <path class="feature" d="M 642 628 Q 650 634 658 628" />
+    </g>
+    
+    <!-- Peep 52 -->
+    <g id="peep_52">
+      <!-- Torso -->
+      <path class="skin" d="M 710 720 L 718 657 Q 750 644.4 782 657 L 790 720 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 735 651.6 L 750 675 L 765 651.6" />
+      <!-- Neck -->
+      <rect class="skin" x="742" y="627" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="750" cy="612" r="30" />
+    
+        <path class="hair" d="M 725 602 L 735 577 L 745 597 L 755 574 L 765 597 L 775 580 L 780 607 Z" />
+      
+        <circle class="feature" cx="738" cy="610" r="9" />
+        <circle class="feature" cx="762" cy="610" r="9" />
+        <line class="feature" x1="747" y1="610" x2="753" y2="610" />
+        <circle class="dot" cx="738" cy="610" r="2.5" />
+        <circle class="dot" cx="762" cy="610" r="2.5" />
+      
+      <circle class="dot" cx="750" cy="618" r="2" />
+      <path class="feature" d="M 742 628 Q 750 634 758 628" />
+    </g>
+    
+    <!-- Peep 53 -->
+    <g id="peep_53">
+      <!-- Torso -->
+      <path class="skin" d="M 810 720 L 818 657 Q 850 644.4 882 657 L 890 720 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 835 651.6 L 850 675 L 865 651.6" />
+      <!-- Neck -->
+      <rect class="skin" x="842" y="627" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="850" cy="612" r="30" />
+    
+        <path class="hair" d="M 820 607 A 30 30 0 0 1 880 607 Z" />
+      
+        <circle class="dot" cx="838" cy="610" r="3" />
+        <circle class="dot" cx="862" cy="610" r="3" />
+      
+      <circle class="dot" cx="850" cy="618" r="2" />
+      <path class="feature" d="M 842 628 Q 850 634 858 628" />
+    </g>
+    
+    <!-- Peep 54 -->
+    <g id="peep_54">
+      <!-- Torso -->
+      <path class="skin" d="M 910 720 L 918 657 Q 950 644.4 982 657 L 990 720 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 935 651.6 L 950 675 L 965 651.6" />
+      <!-- Neck -->
+      <rect class="skin" x="942" y="627" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="950" cy="612" r="30" />
+    
+        <path class="hair" d="M 920 607 A 30 30 0 0 1 980 607 Z" />
+      
+        <circle class="feature" cx="938" cy="610" r="9" />
+        <circle class="feature" cx="962" cy="610" r="9" />
+        <line class="feature" x1="947" y1="610" x2="953" y2="610" />
+        <circle class="dot" cx="938" cy="610" r="2.5" />
+        <circle class="dot" cx="962" cy="610" r="2.5" />
+      
+      <circle class="dot" cx="950" cy="618" r="2" />
+      <path class="feature" d="M 942 628 Q 950 634 958 628" />
+    </g>
+    
+    <!-- Peep 55 -->
+    <g id="peep_55">
+      <!-- Torso -->
+      <path class="skin" d="M 1010 720 L 1018 657 Q 1050 644.4 1082 657 L 1090 720 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1035 651.6 L 1050 675 L 1065 651.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1042" y="627" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1050" cy="612" r="30" />
+    
+        <path class="hair" d="M 1020 607 A 30 30 0 0 1 1080 607 Z" />
+      
+        <circle class="dot" cx="1038" cy="610" r="3" />
+        <circle class="dot" cx="1062" cy="610" r="3" />
+      
+      <circle class="dot" cx="1050" cy="618" r="2" />
+      <path class="feature" d="M 1042 628 Q 1050 634 1058 628" />
+    </g>
+    
+    <!-- Peep 56 -->
+    <g id="peep_56">
+      <!-- Torso -->
+      <path class="skin" d="M 1110 720 L 1118 657 Q 1150 644.4 1182 657 L 1190 720 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1135 651.6 L 1150 675 L 1165 651.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1142" y="627" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1150" cy="612" r="30" />
+    
+        <circle class="hair" cx="1130" cy="600" r="19.5" />
+        <circle class="hair" cx="1150" cy="588" r="22.5" />
+        <circle class="hair" cx="1170" cy="600" r="19.5" />
+      
+        <circle class="feature" cx="1138" cy="610" r="9" />
+        <circle class="feature" cx="1162" cy="610" r="9" />
+        <line class="feature" x1="1147" y1="610" x2="1153" y2="610" />
+        <circle class="dot" cx="1138" cy="610" r="2.5" />
+        <circle class="dot" cx="1162" cy="610" r="2.5" />
+      
+      <circle class="dot" cx="1150" cy="618" r="2" />
+      <path class="feature" d="M 1142 628 Q 1150 634 1158 628" />
+    </g>
+    
+    <!-- Peep 57 -->
+    <g id="peep_57">
+      <!-- Torso -->
+      <path class="skin" d="M 1210 720 L 1218 657 Q 1250 644.4 1282 657 L 1290 720 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1235 651.6 L 1250 675 L 1265 651.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1242" y="627" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1250" cy="612" r="30" />
+    
+        <path class="hair" d="M 1220 612 A 30 30 0 0 1 1280 612 Z" />
+        <rect class="skin" x="1218" y="604" width="64" height="14" rx="3" />
+      
+        <circle class="dot" cx="1238" cy="610" r="3" />
+        <circle class="dot" cx="1262" cy="610" r="3" />
+      
+      <circle class="dot" cx="1250" cy="618" r="2" />
+      <path class="feature" d="M 1242 628 Q 1250 634 1258 628" />
+    </g>
+    
+    <!-- Peep 58 -->
+    <g id="peep_58">
+      <!-- Torso -->
+      <path class="skin" d="M 1310 720 L 1318 657 Q 1350 644.4 1382 657 L 1390 720 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1335 651.6 L 1350 675 L 1365 651.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1342" y="627" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1350" cy="612" r="30" />
+    
+        <rect class="hair" x="1320" y="578" width="60" height="30" rx="4" />
+        <path class="feature" d="M 1310 608 L 1345 608" />
+      
+        <circle class="feature" cx="1338" cy="610" r="9" />
+        <circle class="feature" cx="1362" cy="610" r="9" />
+        <line class="feature" x1="1347" y1="610" x2="1353" y2="610" />
+        <circle class="dot" cx="1338" cy="610" r="2.5" />
+        <circle class="dot" cx="1362" cy="610" r="2.5" />
+      
+      <circle class="dot" cx="1350" cy="618" r="2" />
+      <path class="feature" d="M 1342 628 Q 1350 634 1358 628" />
+    </g>
+    
+    <!-- Peep 59 -->
+    <g id="peep_59">
+      <!-- Torso -->
+      <path class="skin" d="M 1410 720 L 1418 657 Q 1450 644.4 1482 657 L 1490 720 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1435 651.6 L 1450 675 L 1465 651.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1442" y="627" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1450" cy="612" r="30" />
+    
+        <path class="hair" d="M 1415 637 L 1415 602 A 35 35 0 0 1 1485 602 L 1485 637 Z" />
+      
+        <circle class="dot" cx="1438" cy="610" r="3" />
+        <circle class="dot" cx="1462" cy="610" r="3" />
+      
+      <circle class="dot" cx="1450" cy="618" r="2" />
+      <path class="feature" d="M 1442 628 Q 1450 634 1458 628" />
+    </g>
+    
+    <!-- Peep 60 -->
+    <g id="peep_60">
+      <!-- Torso -->
+      <path class="skin" d="M 10 900 L 18 837 Q 50 824.4 82 837 L 90 900 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 35 831.6 L 50 855 L 65 831.6" />
+      <!-- Neck -->
+      <rect class="skin" x="42" y="807" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="50" cy="792" r="30" />
+    
+        <path class="hair" d="M 25 782 L 35 757 L 45 777 L 55 754 L 65 777 L 75 760 L 80 787 Z" />
+      
+        <circle class="feature" cx="38" cy="790" r="9" />
+        <circle class="feature" cx="62" cy="790" r="9" />
+        <line class="feature" x1="47" y1="790" x2="53" y2="790" />
+        <circle class="dot" cx="38" cy="790" r="2.5" />
+        <circle class="dot" cx="62" cy="790" r="2.5" />
+      
+      <circle class="dot" cx="50" cy="798" r="2" />
+      <path class="feature" d="M 42 808 Q 50 814 58 808" />
+    </g>
+    
+    <!-- Peep 61 -->
+    <g id="peep_61">
+      <!-- Torso -->
+      <path class="skin" d="M 110 900 L 118 837 Q 150 824.4 182 837 L 190 900 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 135 831.6 L 150 855 L 165 831.6" />
+      <!-- Neck -->
+      <rect class="skin" x="142" y="807" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="150" cy="792" r="30" />
+    
+        <path class="hair" d="M 120 787 A 30 30 0 0 1 180 787 Z" />
+      
+        <circle class="dot" cx="138" cy="790" r="3" />
+        <circle class="dot" cx="162" cy="790" r="3" />
+      
+      <circle class="dot" cx="150" cy="798" r="2" />
+      <path class="feature" d="M 142 808 Q 150 814 158 808" />
+    </g>
+    
+    <!-- Peep 62 -->
+    <g id="peep_62">
+      <!-- Torso -->
+      <path class="skin" d="M 210 900 L 218 837 Q 250 824.4 282 837 L 290 900 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 235 831.6 L 250 855 L 265 831.6" />
+      <!-- Neck -->
+      <rect class="skin" x="242" y="807" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="250" cy="792" r="30" />
+    
+        <path class="hair" d="M 220 787 A 30 30 0 0 1 280 787 Z" />
+      
+        <circle class="feature" cx="238" cy="790" r="9" />
+        <circle class="feature" cx="262" cy="790" r="9" />
+        <line class="feature" x1="247" y1="790" x2="253" y2="790" />
+        <circle class="dot" cx="238" cy="790" r="2.5" />
+        <circle class="dot" cx="262" cy="790" r="2.5" />
+      
+      <circle class="dot" cx="250" cy="798" r="2" />
+      <path class="feature" d="M 242 808 Q 250 814 258 808" />
+    </g>
+    
+    <!-- Peep 63 -->
+    <g id="peep_63">
+      <!-- Torso -->
+      <path class="skin" d="M 310 900 L 318 837 Q 350 824.4 382 837 L 390 900 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 335 831.6 L 350 855 L 365 831.6" />
+      <!-- Neck -->
+      <rect class="skin" x="342" y="807" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="350" cy="792" r="30" />
+    
+        <path class="hair" d="M 320 787 A 30 30 0 0 1 380 787 Z" />
+      
+        <circle class="dot" cx="338" cy="790" r="3" />
+        <circle class="dot" cx="362" cy="790" r="3" />
+      
+      <circle class="dot" cx="350" cy="798" r="2" />
+      <path class="feature" d="M 342 808 Q 350 814 358 808" />
+    </g>
+    
+    <!-- Peep 64 -->
+    <g id="peep_64">
+      <!-- Torso -->
+      <path class="skin" d="M 410 900 L 418 837 Q 450 824.4 482 837 L 490 900 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 435 831.6 L 450 855 L 465 831.6" />
+      <!-- Neck -->
+      <rect class="skin" x="442" y="807" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="450" cy="792" r="30" />
+    
+        <circle class="hair" cx="430" cy="780" r="19.5" />
+        <circle class="hair" cx="450" cy="768" r="22.5" />
+        <circle class="hair" cx="470" cy="780" r="19.5" />
+      
+        <circle class="feature" cx="438" cy="790" r="9" />
+        <circle class="feature" cx="462" cy="790" r="9" />
+        <line class="feature" x1="447" y1="790" x2="453" y2="790" />
+        <circle class="dot" cx="438" cy="790" r="2.5" />
+        <circle class="dot" cx="462" cy="790" r="2.5" />
+      
+      <circle class="dot" cx="450" cy="798" r="2" />
+      <path class="feature" d="M 442 808 Q 450 814 458 808" />
+    </g>
+    
+    <!-- Peep 65 -->
+    <g id="peep_65">
+      <!-- Torso -->
+      <path class="skin" d="M 510 900 L 518 837 Q 550 824.4 582 837 L 590 900 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 535 831.6 L 550 855 L 565 831.6" />
+      <!-- Neck -->
+      <rect class="skin" x="542" y="807" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="550" cy="792" r="30" />
+    
+        <path class="hair" d="M 520 792 A 30 30 0 0 1 580 792 Z" />
+        <rect class="skin" x="518" y="784" width="64" height="14" rx="3" />
+      
+        <circle class="dot" cx="538" cy="790" r="3" />
+        <circle class="dot" cx="562" cy="790" r="3" />
+      
+      <circle class="dot" cx="550" cy="798" r="2" />
+      <path class="feature" d="M 542 808 Q 550 814 558 808" />
+    </g>
+    
+    <!-- Peep 66 -->
+    <g id="peep_66">
+      <!-- Torso -->
+      <path class="skin" d="M 610 900 L 618 837 Q 650 824.4 682 837 L 690 900 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 635 831.6 L 650 855 L 665 831.6" />
+      <!-- Neck -->
+      <rect class="skin" x="642" y="807" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="650" cy="792" r="30" />
+    
+        <rect class="hair" x="620" y="758" width="60" height="30" rx="4" />
+        <path class="feature" d="M 610 788 L 645 788" />
+      
+        <circle class="feature" cx="638" cy="790" r="9" />
+        <circle class="feature" cx="662" cy="790" r="9" />
+        <line class="feature" x1="647" y1="790" x2="653" y2="790" />
+        <circle class="dot" cx="638" cy="790" r="2.5" />
+        <circle class="dot" cx="662" cy="790" r="2.5" />
+      
+      <circle class="dot" cx="650" cy="798" r="2" />
+      <path class="feature" d="M 642 808 Q 650 814 658 808" />
+    </g>
+    
+    <!-- Peep 67 -->
+    <g id="peep_67">
+      <!-- Torso -->
+      <path class="skin" d="M 710 900 L 718 837 Q 750 824.4 782 837 L 790 900 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 735 831.6 L 750 855 L 765 831.6" />
+      <!-- Neck -->
+      <rect class="skin" x="742" y="807" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="750" cy="792" r="30" />
+    
+        <path class="hair" d="M 715 817 L 715 782 A 35 35 0 0 1 785 782 L 785 817 Z" />
+      
+        <circle class="dot" cx="738" cy="790" r="3" />
+        <circle class="dot" cx="762" cy="790" r="3" />
+      
+      <circle class="dot" cx="750" cy="798" r="2" />
+      <path class="feature" d="M 742 808 Q 750 814 758 808" />
+    </g>
+    
+    <!-- Peep 68 -->
+    <g id="peep_68">
+      <!-- Torso -->
+      <path class="skin" d="M 810 900 L 818 837 Q 850 824.4 882 837 L 890 900 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 835 831.6 L 850 855 L 865 831.6" />
+      <!-- Neck -->
+      <rect class="skin" x="842" y="807" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="850" cy="792" r="30" />
+    
+        <path class="hair" d="M 825 782 L 835 757 L 845 777 L 855 754 L 865 777 L 875 760 L 880 787 Z" />
+      
+        <circle class="feature" cx="838" cy="790" r="9" />
+        <circle class="feature" cx="862" cy="790" r="9" />
+        <line class="feature" x1="847" y1="790" x2="853" y2="790" />
+        <circle class="dot" cx="838" cy="790" r="2.5" />
+        <circle class="dot" cx="862" cy="790" r="2.5" />
+      
+      <circle class="dot" cx="850" cy="798" r="2" />
+      <path class="feature" d="M 842 808 Q 850 814 858 808" />
+    </g>
+    
+    <!-- Peep 69 -->
+    <g id="peep_69">
+      <!-- Torso -->
+      <path class="skin" d="M 910 900 L 918 837 Q 950 824.4 982 837 L 990 900 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 935 831.6 L 950 855 L 965 831.6" />
+      <!-- Neck -->
+      <rect class="skin" x="942" y="807" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="950" cy="792" r="30" />
+    
+        <path class="hair" d="M 920 787 A 30 30 0 0 1 980 787 Z" />
+      
+        <circle class="dot" cx="938" cy="790" r="3" />
+        <circle class="dot" cx="962" cy="790" r="3" />
+      
+      <circle class="dot" cx="950" cy="798" r="2" />
+      <path class="feature" d="M 942 808 Q 950 814 958 808" />
+    </g>
+    
+    <!-- Peep 70 -->
+    <g id="peep_70">
+      <!-- Torso -->
+      <path class="skin" d="M 1010 900 L 1018 837 Q 1050 824.4 1082 837 L 1090 900 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1035 831.6 L 1050 855 L 1065 831.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1042" y="807" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1050" cy="792" r="30" />
+    
+        <path class="hair" d="M 1020 787 A 30 30 0 0 1 1080 787 Z" />
+      
+        <circle class="feature" cx="1038" cy="790" r="9" />
+        <circle class="feature" cx="1062" cy="790" r="9" />
+        <line class="feature" x1="1047" y1="790" x2="1053" y2="790" />
+        <circle class="dot" cx="1038" cy="790" r="2.5" />
+        <circle class="dot" cx="1062" cy="790" r="2.5" />
+      
+      <circle class="dot" cx="1050" cy="798" r="2" />
+      <path class="feature" d="M 1042 808 Q 1050 814 1058 808" />
+    </g>
+    
+    <!-- Peep 71 -->
+    <g id="peep_71">
+      <!-- Torso -->
+      <path class="skin" d="M 1110 900 L 1118 837 Q 1150 824.4 1182 837 L 1190 900 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1135 831.6 L 1150 855 L 1165 831.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1142" y="807" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1150" cy="792" r="30" />
+    
+        <path class="hair" d="M 1120 787 A 30 30 0 0 1 1180 787 Z" />
+      
+        <circle class="dot" cx="1138" cy="790" r="3" />
+        <circle class="dot" cx="1162" cy="790" r="3" />
+      
+      <circle class="dot" cx="1150" cy="798" r="2" />
+      <path class="feature" d="M 1142 808 Q 1150 814 1158 808" />
+    </g>
+    
+    <!-- Peep 72 -->
+    <g id="peep_72">
+      <!-- Torso -->
+      <path class="skin" d="M 1210 900 L 1218 837 Q 1250 824.4 1282 837 L 1290 900 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1235 831.6 L 1250 855 L 1265 831.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1242" y="807" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1250" cy="792" r="30" />
+    
+        <circle class="hair" cx="1230" cy="780" r="19.5" />
+        <circle class="hair" cx="1250" cy="768" r="22.5" />
+        <circle class="hair" cx="1270" cy="780" r="19.5" />
+      
+        <circle class="feature" cx="1238" cy="790" r="9" />
+        <circle class="feature" cx="1262" cy="790" r="9" />
+        <line class="feature" x1="1247" y1="790" x2="1253" y2="790" />
+        <circle class="dot" cx="1238" cy="790" r="2.5" />
+        <circle class="dot" cx="1262" cy="790" r="2.5" />
+      
+      <circle class="dot" cx="1250" cy="798" r="2" />
+      <path class="feature" d="M 1242 808 Q 1250 814 1258 808" />
+    </g>
+    
+    <!-- Peep 73 -->
+    <g id="peep_73">
+      <!-- Torso -->
+      <path class="skin" d="M 1310 900 L 1318 837 Q 1350 824.4 1382 837 L 1390 900 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1335 831.6 L 1350 855 L 1365 831.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1342" y="807" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1350" cy="792" r="30" />
+    
+        <path class="hair" d="M 1320 792 A 30 30 0 0 1 1380 792 Z" />
+        <rect class="skin" x="1318" y="784" width="64" height="14" rx="3" />
+      
+        <circle class="dot" cx="1338" cy="790" r="3" />
+        <circle class="dot" cx="1362" cy="790" r="3" />
+      
+      <circle class="dot" cx="1350" cy="798" r="2" />
+      <path class="feature" d="M 1342 808 Q 1350 814 1358 808" />
+    </g>
+    
+    <!-- Peep 74 -->
+    <g id="peep_74">
+      <!-- Torso -->
+      <path class="skin" d="M 1410 900 L 1418 837 Q 1450 824.4 1482 837 L 1490 900 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1435 831.6 L 1450 855 L 1465 831.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1442" y="807" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1450" cy="792" r="30" />
+    
+        <rect class="hair" x="1420" y="758" width="60" height="30" rx="4" />
+        <path class="feature" d="M 1410 788 L 1445 788" />
+      
+        <circle class="feature" cx="1438" cy="790" r="9" />
+        <circle class="feature" cx="1462" cy="790" r="9" />
+        <line class="feature" x1="1447" y1="790" x2="1453" y2="790" />
+        <circle class="dot" cx="1438" cy="790" r="2.5" />
+        <circle class="dot" cx="1462" cy="790" r="2.5" />
+      
+      <circle class="dot" cx="1450" cy="798" r="2" />
+      <path class="feature" d="M 1442 808 Q 1450 814 1458 808" />
+    </g>
+    
+    <!-- Peep 75 -->
+    <g id="peep_75">
+      <!-- Torso -->
+      <path class="skin" d="M 10 1080 L 18 1017 Q 50 1004.4 82 1017 L 90 1080 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 35 1011.6 L 50 1035 L 65 1011.6" />
+      <!-- Neck -->
+      <rect class="skin" x="42" y="987" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="50" cy="972" r="30" />
+    
+        <path class="hair" d="M 15 997 L 15 962 A 35 35 0 0 1 85 962 L 85 997 Z" />
+      
+        <circle class="dot" cx="38" cy="970" r="3" />
+        <circle class="dot" cx="62" cy="970" r="3" />
+      
+      <circle class="dot" cx="50" cy="978" r="2" />
+      <path class="feature" d="M 42 988 Q 50 994 58 988" />
+    </g>
+    
+    <!-- Peep 76 -->
+    <g id="peep_76">
+      <!-- Torso -->
+      <path class="skin" d="M 110 1080 L 118 1017 Q 150 1004.4 182 1017 L 190 1080 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 135 1011.6 L 150 1035 L 165 1011.6" />
+      <!-- Neck -->
+      <rect class="skin" x="142" y="987" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="150" cy="972" r="30" />
+    
+        <path class="hair" d="M 125 962 L 135 937 L 145 957 L 155 934 L 165 957 L 175 940 L 180 967 Z" />
+      
+        <circle class="feature" cx="138" cy="970" r="9" />
+        <circle class="feature" cx="162" cy="970" r="9" />
+        <line class="feature" x1="147" y1="970" x2="153" y2="970" />
+        <circle class="dot" cx="138" cy="970" r="2.5" />
+        <circle class="dot" cx="162" cy="970" r="2.5" />
+      
+      <circle class="dot" cx="150" cy="978" r="2" />
+      <path class="feature" d="M 142 988 Q 150 994 158 988" />
+    </g>
+    
+    <!-- Peep 77 -->
+    <g id="peep_77">
+      <!-- Torso -->
+      <path class="skin" d="M 210 1080 L 218 1017 Q 250 1004.4 282 1017 L 290 1080 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 235 1011.6 L 250 1035 L 265 1011.6" />
+      <!-- Neck -->
+      <rect class="skin" x="242" y="987" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="250" cy="972" r="30" />
+    
+        <path class="hair" d="M 220 967 A 30 30 0 0 1 280 967 Z" />
+      
+        <circle class="dot" cx="238" cy="970" r="3" />
+        <circle class="dot" cx="262" cy="970" r="3" />
+      
+      <circle class="dot" cx="250" cy="978" r="2" />
+      <path class="feature" d="M 242 988 Q 250 994 258 988" />
+    </g>
+    
+    <!-- Peep 78 -->
+    <g id="peep_78">
+      <!-- Torso -->
+      <path class="skin" d="M 310 1080 L 318 1017 Q 350 1004.4 382 1017 L 390 1080 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 335 1011.6 L 350 1035 L 365 1011.6" />
+      <!-- Neck -->
+      <rect class="skin" x="342" y="987" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="350" cy="972" r="30" />
+    
+        <path class="hair" d="M 320 967 A 30 30 0 0 1 380 967 Z" />
+      
+        <circle class="feature" cx="338" cy="970" r="9" />
+        <circle class="feature" cx="362" cy="970" r="9" />
+        <line class="feature" x1="347" y1="970" x2="353" y2="970" />
+        <circle class="dot" cx="338" cy="970" r="2.5" />
+        <circle class="dot" cx="362" cy="970" r="2.5" />
+      
+      <circle class="dot" cx="350" cy="978" r="2" />
+      <path class="feature" d="M 342 988 Q 350 994 358 988" />
+    </g>
+    
+    <!-- Peep 79 -->
+    <g id="peep_79">
+      <!-- Torso -->
+      <path class="skin" d="M 410 1080 L 418 1017 Q 450 1004.4 482 1017 L 490 1080 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 435 1011.6 L 450 1035 L 465 1011.6" />
+      <!-- Neck -->
+      <rect class="skin" x="442" y="987" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="450" cy="972" r="30" />
+    
+        <path class="hair" d="M 420 967 A 30 30 0 0 1 480 967 Z" />
+      
+        <circle class="dot" cx="438" cy="970" r="3" />
+        <circle class="dot" cx="462" cy="970" r="3" />
+      
+      <circle class="dot" cx="450" cy="978" r="2" />
+      <path class="feature" d="M 442 988 Q 450 994 458 988" />
+    </g>
+    
+    <!-- Peep 80 -->
+    <g id="peep_80">
+      <!-- Torso -->
+      <path class="skin" d="M 510 1080 L 518 1017 Q 550 1004.4 582 1017 L 590 1080 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 535 1011.6 L 550 1035 L 565 1011.6" />
+      <!-- Neck -->
+      <rect class="skin" x="542" y="987" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="550" cy="972" r="30" />
+    
+        <circle class="hair" cx="530" cy="960" r="19.5" />
+        <circle class="hair" cx="550" cy="948" r="22.5" />
+        <circle class="hair" cx="570" cy="960" r="19.5" />
+      
+        <circle class="feature" cx="538" cy="970" r="9" />
+        <circle class="feature" cx="562" cy="970" r="9" />
+        <line class="feature" x1="547" y1="970" x2="553" y2="970" />
+        <circle class="dot" cx="538" cy="970" r="2.5" />
+        <circle class="dot" cx="562" cy="970" r="2.5" />
+      
+      <circle class="dot" cx="550" cy="978" r="2" />
+      <path class="feature" d="M 542 988 Q 550 994 558 988" />
+    </g>
+    
+    <!-- Peep 81 -->
+    <g id="peep_81">
+      <!-- Torso -->
+      <path class="skin" d="M 610 1080 L 618 1017 Q 650 1004.4 682 1017 L 690 1080 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 635 1011.6 L 650 1035 L 665 1011.6" />
+      <!-- Neck -->
+      <rect class="skin" x="642" y="987" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="650" cy="972" r="30" />
+    
+        <path class="hair" d="M 620 972 A 30 30 0 0 1 680 972 Z" />
+        <rect class="skin" x="618" y="964" width="64" height="14" rx="3" />
+      
+        <circle class="dot" cx="638" cy="970" r="3" />
+        <circle class="dot" cx="662" cy="970" r="3" />
+      
+      <circle class="dot" cx="650" cy="978" r="2" />
+      <path class="feature" d="M 642 988 Q 650 994 658 988" />
+    </g>
+    
+    <!-- Peep 82 -->
+    <g id="peep_82">
+      <!-- Torso -->
+      <path class="skin" d="M 710 1080 L 718 1017 Q 750 1004.4 782 1017 L 790 1080 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 735 1011.6 L 750 1035 L 765 1011.6" />
+      <!-- Neck -->
+      <rect class="skin" x="742" y="987" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="750" cy="972" r="30" />
+    
+        <rect class="hair" x="720" y="938" width="60" height="30" rx="4" />
+        <path class="feature" d="M 710 968 L 745 968" />
+      
+        <circle class="feature" cx="738" cy="970" r="9" />
+        <circle class="feature" cx="762" cy="970" r="9" />
+        <line class="feature" x1="747" y1="970" x2="753" y2="970" />
+        <circle class="dot" cx="738" cy="970" r="2.5" />
+        <circle class="dot" cx="762" cy="970" r="2.5" />
+      
+      <circle class="dot" cx="750" cy="978" r="2" />
+      <path class="feature" d="M 742 988 Q 750 994 758 988" />
+    </g>
+    
+    <!-- Peep 83 -->
+    <g id="peep_83">
+      <!-- Torso -->
+      <path class="skin" d="M 810 1080 L 818 1017 Q 850 1004.4 882 1017 L 890 1080 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 835 1011.6 L 850 1035 L 865 1011.6" />
+      <!-- Neck -->
+      <rect class="skin" x="842" y="987" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="850" cy="972" r="30" />
+    
+        <path class="hair" d="M 815 997 L 815 962 A 35 35 0 0 1 885 962 L 885 997 Z" />
+      
+        <circle class="dot" cx="838" cy="970" r="3" />
+        <circle class="dot" cx="862" cy="970" r="3" />
+      
+      <circle class="dot" cx="850" cy="978" r="2" />
+      <path class="feature" d="M 842 988 Q 850 994 858 988" />
+    </g>
+    
+    <!-- Peep 84 -->
+    <g id="peep_84">
+      <!-- Torso -->
+      <path class="skin" d="M 910 1080 L 918 1017 Q 950 1004.4 982 1017 L 990 1080 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 935 1011.6 L 950 1035 L 965 1011.6" />
+      <!-- Neck -->
+      <rect class="skin" x="942" y="987" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="950" cy="972" r="30" />
+    
+        <path class="hair" d="M 925 962 L 935 937 L 945 957 L 955 934 L 965 957 L 975 940 L 980 967 Z" />
+      
+        <circle class="feature" cx="938" cy="970" r="9" />
+        <circle class="feature" cx="962" cy="970" r="9" />
+        <line class="feature" x1="947" y1="970" x2="953" y2="970" />
+        <circle class="dot" cx="938" cy="970" r="2.5" />
+        <circle class="dot" cx="962" cy="970" r="2.5" />
+      
+      <circle class="dot" cx="950" cy="978" r="2" />
+      <path class="feature" d="M 942 988 Q 950 994 958 988" />
+    </g>
+    
+    <!-- Peep 85 -->
+    <g id="peep_85">
+      <!-- Torso -->
+      <path class="skin" d="M 1010 1080 L 1018 1017 Q 1050 1004.4 1082 1017 L 1090 1080 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1035 1011.6 L 1050 1035 L 1065 1011.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1042" y="987" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1050" cy="972" r="30" />
+    
+        <path class="hair" d="M 1020 967 A 30 30 0 0 1 1080 967 Z" />
+      
+        <circle class="dot" cx="1038" cy="970" r="3" />
+        <circle class="dot" cx="1062" cy="970" r="3" />
+      
+      <circle class="dot" cx="1050" cy="978" r="2" />
+      <path class="feature" d="M 1042 988 Q 1050 994 1058 988" />
+    </g>
+    
+    <!-- Peep 86 -->
+    <g id="peep_86">
+      <!-- Torso -->
+      <path class="skin" d="M 1110 1080 L 1118 1017 Q 1150 1004.4 1182 1017 L 1190 1080 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1135 1011.6 L 1150 1035 L 1165 1011.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1142" y="987" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1150" cy="972" r="30" />
+    
+        <path class="hair" d="M 1120 967 A 30 30 0 0 1 1180 967 Z" />
+      
+        <circle class="feature" cx="1138" cy="970" r="9" />
+        <circle class="feature" cx="1162" cy="970" r="9" />
+        <line class="feature" x1="1147" y1="970" x2="1153" y2="970" />
+        <circle class="dot" cx="1138" cy="970" r="2.5" />
+        <circle class="dot" cx="1162" cy="970" r="2.5" />
+      
+      <circle class="dot" cx="1150" cy="978" r="2" />
+      <path class="feature" d="M 1142 988 Q 1150 994 1158 988" />
+    </g>
+    
+    <!-- Peep 87 -->
+    <g id="peep_87">
+      <!-- Torso -->
+      <path class="skin" d="M 1210 1080 L 1218 1017 Q 1250 1004.4 1282 1017 L 1290 1080 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1235 1011.6 L 1250 1035 L 1265 1011.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1242" y="987" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1250" cy="972" r="30" />
+    
+        <path class="hair" d="M 1220 967 A 30 30 0 0 1 1280 967 Z" />
+      
+        <circle class="dot" cx="1238" cy="970" r="3" />
+        <circle class="dot" cx="1262" cy="970" r="3" />
+      
+      <circle class="dot" cx="1250" cy="978" r="2" />
+      <path class="feature" d="M 1242 988 Q 1250 994 1258 988" />
+    </g>
+    
+    <!-- Peep 88 -->
+    <g id="peep_88">
+      <!-- Torso -->
+      <path class="skin" d="M 1310 1080 L 1318 1017 Q 1350 1004.4 1382 1017 L 1390 1080 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1335 1011.6 L 1350 1035 L 1365 1011.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1342" y="987" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1350" cy="972" r="30" />
+    
+        <circle class="hair" cx="1330" cy="960" r="19.5" />
+        <circle class="hair" cx="1350" cy="948" r="22.5" />
+        <circle class="hair" cx="1370" cy="960" r="19.5" />
+      
+        <circle class="feature" cx="1338" cy="970" r="9" />
+        <circle class="feature" cx="1362" cy="970" r="9" />
+        <line class="feature" x1="1347" y1="970" x2="1353" y2="970" />
+        <circle class="dot" cx="1338" cy="970" r="2.5" />
+        <circle class="dot" cx="1362" cy="970" r="2.5" />
+      
+      <circle class="dot" cx="1350" cy="978" r="2" />
+      <path class="feature" d="M 1342 988 Q 1350 994 1358 988" />
+    </g>
+    
+    <!-- Peep 89 -->
+    <g id="peep_89">
+      <!-- Torso -->
+      <path class="skin" d="M 1410 1080 L 1418 1017 Q 1450 1004.4 1482 1017 L 1490 1080 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1435 1011.6 L 1450 1035 L 1465 1011.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1442" y="987" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1450" cy="972" r="30" />
+    
+        <path class="hair" d="M 1420 972 A 30 30 0 0 1 1480 972 Z" />
+        <rect class="skin" x="1418" y="964" width="64" height="14" rx="3" />
+      
+        <circle class="dot" cx="1438" cy="970" r="3" />
+        <circle class="dot" cx="1462" cy="970" r="3" />
+      
+      <circle class="dot" cx="1450" cy="978" r="2" />
+      <path class="feature" d="M 1442 988 Q 1450 994 1458 988" />
+    </g>
+    
+    <!-- Peep 90 -->
+    <g id="peep_90">
+      <!-- Torso -->
+      <path class="skin" d="M 10 1260 L 18 1197 Q 50 1184.4 82 1197 L 90 1260 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 35 1191.6 L 50 1215 L 65 1191.6" />
+      <!-- Neck -->
+      <rect class="skin" x="42" y="1167" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="50" cy="1152" r="30" />
+    
+        <rect class="hair" x="20" y="1118" width="60" height="30" rx="4" />
+        <path class="feature" d="M 10 1148 L 45 1148" />
+      
+        <circle class="feature" cx="38" cy="1150" r="9" />
+        <circle class="feature" cx="62" cy="1150" r="9" />
+        <line class="feature" x1="47" y1="1150" x2="53" y2="1150" />
+        <circle class="dot" cx="38" cy="1150" r="2.5" />
+        <circle class="dot" cx="62" cy="1150" r="2.5" />
+      
+      <circle class="dot" cx="50" cy="1158" r="2" />
+      <path class="feature" d="M 42 1168 Q 50 1174 58 1168" />
+    </g>
+    
+    <!-- Peep 91 -->
+    <g id="peep_91">
+      <!-- Torso -->
+      <path class="skin" d="M 110 1260 L 118 1197 Q 150 1184.4 182 1197 L 190 1260 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 135 1191.6 L 150 1215 L 165 1191.6" />
+      <!-- Neck -->
+      <rect class="skin" x="142" y="1167" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="150" cy="1152" r="30" />
+    
+        <path class="hair" d="M 115 1177 L 115 1142 A 35 35 0 0 1 185 1142 L 185 1177 Z" />
+      
+        <circle class="dot" cx="138" cy="1150" r="3" />
+        <circle class="dot" cx="162" cy="1150" r="3" />
+      
+      <circle class="dot" cx="150" cy="1158" r="2" />
+      <path class="feature" d="M 142 1168 Q 150 1174 158 1168" />
+    </g>
+    
+    <!-- Peep 92 -->
+    <g id="peep_92">
+      <!-- Torso -->
+      <path class="skin" d="M 210 1260 L 218 1197 Q 250 1184.4 282 1197 L 290 1260 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 235 1191.6 L 250 1215 L 265 1191.6" />
+      <!-- Neck -->
+      <rect class="skin" x="242" y="1167" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="250" cy="1152" r="30" />
+    
+        <path class="hair" d="M 225 1142 L 235 1117 L 245 1137 L 255 1114 L 265 1137 L 275 1120 L 280 1147 Z" />
+      
+        <circle class="feature" cx="238" cy="1150" r="9" />
+        <circle class="feature" cx="262" cy="1150" r="9" />
+        <line class="feature" x1="247" y1="1150" x2="253" y2="1150" />
+        <circle class="dot" cx="238" cy="1150" r="2.5" />
+        <circle class="dot" cx="262" cy="1150" r="2.5" />
+      
+      <circle class="dot" cx="250" cy="1158" r="2" />
+      <path class="feature" d="M 242 1168 Q 250 1174 258 1168" />
+    </g>
+    
+    <!-- Peep 93 -->
+    <g id="peep_93">
+      <!-- Torso -->
+      <path class="skin" d="M 310 1260 L 318 1197 Q 350 1184.4 382 1197 L 390 1260 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 335 1191.6 L 350 1215 L 365 1191.6" />
+      <!-- Neck -->
+      <rect class="skin" x="342" y="1167" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="350" cy="1152" r="30" />
+    
+        <path class="hair" d="M 320 1147 A 30 30 0 0 1 380 1147 Z" />
+      
+        <circle class="dot" cx="338" cy="1150" r="3" />
+        <circle class="dot" cx="362" cy="1150" r="3" />
+      
+      <circle class="dot" cx="350" cy="1158" r="2" />
+      <path class="feature" d="M 342 1168 Q 350 1174 358 1168" />
+    </g>
+    
+    <!-- Peep 94 -->
+    <g id="peep_94">
+      <!-- Torso -->
+      <path class="skin" d="M 410 1260 L 418 1197 Q 450 1184.4 482 1197 L 490 1260 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 435 1191.6 L 450 1215 L 465 1191.6" />
+      <!-- Neck -->
+      <rect class="skin" x="442" y="1167" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="450" cy="1152" r="30" />
+    
+        <path class="hair" d="M 420 1147 A 30 30 0 0 1 480 1147 Z" />
+      
+        <circle class="feature" cx="438" cy="1150" r="9" />
+        <circle class="feature" cx="462" cy="1150" r="9" />
+        <line class="feature" x1="447" y1="1150" x2="453" y2="1150" />
+        <circle class="dot" cx="438" cy="1150" r="2.5" />
+        <circle class="dot" cx="462" cy="1150" r="2.5" />
+      
+      <circle class="dot" cx="450" cy="1158" r="2" />
+      <path class="feature" d="M 442 1168 Q 450 1174 458 1168" />
+    </g>
+    
+    <!-- Peep 95 -->
+    <g id="peep_95">
+      <!-- Torso -->
+      <path class="skin" d="M 510 1260 L 518 1197 Q 550 1184.4 582 1197 L 590 1260 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 535 1191.6 L 550 1215 L 565 1191.6" />
+      <!-- Neck -->
+      <rect class="skin" x="542" y="1167" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="550" cy="1152" r="30" />
+    
+        <path class="hair" d="M 520 1147 A 30 30 0 0 1 580 1147 Z" />
+      
+        <circle class="dot" cx="538" cy="1150" r="3" />
+        <circle class="dot" cx="562" cy="1150" r="3" />
+      
+      <circle class="dot" cx="550" cy="1158" r="2" />
+      <path class="feature" d="M 542 1168 Q 550 1174 558 1168" />
+    </g>
+    
+    <!-- Peep 96 -->
+    <g id="peep_96">
+      <!-- Torso -->
+      <path class="skin" d="M 610 1260 L 618 1197 Q 650 1184.4 682 1197 L 690 1260 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 635 1191.6 L 650 1215 L 665 1191.6" />
+      <!-- Neck -->
+      <rect class="skin" x="642" y="1167" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="650" cy="1152" r="30" />
+    
+        <circle class="hair" cx="630" cy="1140" r="19.5" />
+        <circle class="hair" cx="650" cy="1128" r="22.5" />
+        <circle class="hair" cx="670" cy="1140" r="19.5" />
+      
+        <circle class="feature" cx="638" cy="1150" r="9" />
+        <circle class="feature" cx="662" cy="1150" r="9" />
+        <line class="feature" x1="647" y1="1150" x2="653" y2="1150" />
+        <circle class="dot" cx="638" cy="1150" r="2.5" />
+        <circle class="dot" cx="662" cy="1150" r="2.5" />
+      
+      <circle class="dot" cx="650" cy="1158" r="2" />
+      <path class="feature" d="M 642 1168 Q 650 1174 658 1168" />
+    </g>
+    
+    <!-- Peep 97 -->
+    <g id="peep_97">
+      <!-- Torso -->
+      <path class="skin" d="M 710 1260 L 718 1197 Q 750 1184.4 782 1197 L 790 1260 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 735 1191.6 L 750 1215 L 765 1191.6" />
+      <!-- Neck -->
+      <rect class="skin" x="742" y="1167" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="750" cy="1152" r="30" />
+    
+        <path class="hair" d="M 720 1152 A 30 30 0 0 1 780 1152 Z" />
+        <rect class="skin" x="718" y="1144" width="64" height="14" rx="3" />
+      
+        <circle class="dot" cx="738" cy="1150" r="3" />
+        <circle class="dot" cx="762" cy="1150" r="3" />
+      
+      <circle class="dot" cx="750" cy="1158" r="2" />
+      <path class="feature" d="M 742 1168 Q 750 1174 758 1168" />
+    </g>
+    
+    <!-- Peep 98 -->
+    <g id="peep_98">
+      <!-- Torso -->
+      <path class="skin" d="M 810 1260 L 818 1197 Q 850 1184.4 882 1197 L 890 1260 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 835 1191.6 L 850 1215 L 865 1191.6" />
+      <!-- Neck -->
+      <rect class="skin" x="842" y="1167" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="850" cy="1152" r="30" />
+    
+        <rect class="hair" x="820" y="1118" width="60" height="30" rx="4" />
+        <path class="feature" d="M 810 1148 L 845 1148" />
+      
+        <circle class="feature" cx="838" cy="1150" r="9" />
+        <circle class="feature" cx="862" cy="1150" r="9" />
+        <line class="feature" x1="847" y1="1150" x2="853" y2="1150" />
+        <circle class="dot" cx="838" cy="1150" r="2.5" />
+        <circle class="dot" cx="862" cy="1150" r="2.5" />
+      
+      <circle class="dot" cx="850" cy="1158" r="2" />
+      <path class="feature" d="M 842 1168 Q 850 1174 858 1168" />
+    </g>
+    
+    <!-- Peep 99 -->
+    <g id="peep_99">
+      <!-- Torso -->
+      <path class="skin" d="M 910 1260 L 918 1197 Q 950 1184.4 982 1197 L 990 1260 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 935 1191.6 L 950 1215 L 965 1191.6" />
+      <!-- Neck -->
+      <rect class="skin" x="942" y="1167" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="950" cy="1152" r="30" />
+    
+        <path class="hair" d="M 915 1177 L 915 1142 A 35 35 0 0 1 985 1142 L 985 1177 Z" />
+      
+        <circle class="dot" cx="938" cy="1150" r="3" />
+        <circle class="dot" cx="962" cy="1150" r="3" />
+      
+      <circle class="dot" cx="950" cy="1158" r="2" />
+      <path class="feature" d="M 942 1168 Q 950 1174 958 1168" />
+    </g>
+    
+    <!-- Peep 100 -->
+    <g id="peep_100">
+      <!-- Torso -->
+      <path class="skin" d="M 1010 1260 L 1018 1197 Q 1050 1184.4 1082 1197 L 1090 1260 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1035 1191.6 L 1050 1215 L 1065 1191.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1042" y="1167" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1050" cy="1152" r="30" />
+    
+        <path class="hair" d="M 1025 1142 L 1035 1117 L 1045 1137 L 1055 1114 L 1065 1137 L 1075 1120 L 1080 1147 Z" />
+      
+        <circle class="feature" cx="1038" cy="1150" r="9" />
+        <circle class="feature" cx="1062" cy="1150" r="9" />
+        <line class="feature" x1="1047" y1="1150" x2="1053" y2="1150" />
+        <circle class="dot" cx="1038" cy="1150" r="2.5" />
+        <circle class="dot" cx="1062" cy="1150" r="2.5" />
+      
+      <circle class="dot" cx="1050" cy="1158" r="2" />
+      <path class="feature" d="M 1042 1168 Q 1050 1174 1058 1168" />
+    </g>
+    
+    <!-- Peep 101 -->
+    <g id="peep_101">
+      <!-- Torso -->
+      <path class="skin" d="M 1110 1260 L 1118 1197 Q 1150 1184.4 1182 1197 L 1190 1260 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1135 1191.6 L 1150 1215 L 1165 1191.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1142" y="1167" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1150" cy="1152" r="30" />
+    
+        <path class="hair" d="M 1120 1147 A 30 30 0 0 1 1180 1147 Z" />
+      
+        <circle class="dot" cx="1138" cy="1150" r="3" />
+        <circle class="dot" cx="1162" cy="1150" r="3" />
+      
+      <circle class="dot" cx="1150" cy="1158" r="2" />
+      <path class="feature" d="M 1142 1168 Q 1150 1174 1158 1168" />
+    </g>
+    
+    <!-- Peep 102 -->
+    <g id="peep_102">
+      <!-- Torso -->
+      <path class="skin" d="M 1210 1260 L 1218 1197 Q 1250 1184.4 1282 1197 L 1290 1260 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1235 1191.6 L 1250 1215 L 1265 1191.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1242" y="1167" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1250" cy="1152" r="30" />
+    
+        <path class="hair" d="M 1220 1147 A 30 30 0 0 1 1280 1147 Z" />
+      
+        <circle class="feature" cx="1238" cy="1150" r="9" />
+        <circle class="feature" cx="1262" cy="1150" r="9" />
+        <line class="feature" x1="1247" y1="1150" x2="1253" y2="1150" />
+        <circle class="dot" cx="1238" cy="1150" r="2.5" />
+        <circle class="dot" cx="1262" cy="1150" r="2.5" />
+      
+      <circle class="dot" cx="1250" cy="1158" r="2" />
+      <path class="feature" d="M 1242 1168 Q 1250 1174 1258 1168" />
+    </g>
+    
+    <!-- Peep 103 -->
+    <g id="peep_103">
+      <!-- Torso -->
+      <path class="skin" d="M 1310 1260 L 1318 1197 Q 1350 1184.4 1382 1197 L 1390 1260 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1335 1191.6 L 1350 1215 L 1365 1191.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1342" y="1167" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1350" cy="1152" r="30" />
+    
+        <path class="hair" d="M 1320 1147 A 30 30 0 0 1 1380 1147 Z" />
+      
+        <circle class="dot" cx="1338" cy="1150" r="3" />
+        <circle class="dot" cx="1362" cy="1150" r="3" />
+      
+      <circle class="dot" cx="1350" cy="1158" r="2" />
+      <path class="feature" d="M 1342 1168 Q 1350 1174 1358 1168" />
+    </g>
+    
+    <!-- Peep 104 -->
+    <g id="peep_104">
+      <!-- Torso -->
+      <path class="skin" d="M 1410 1260 L 1418 1197 Q 1450 1184.4 1482 1197 L 1490 1260 Z" />
+      <!-- Collar -->
+      <path class="feature" d="M 1435 1191.6 L 1450 1215 L 1465 1191.6" />
+      <!-- Neck -->
+      <rect class="skin" x="1442" y="1167" width="16" height="20" />
+      <!-- Head -->
+      <circle class="skin" cx="1450" cy="1152" r="30" />
+    
+        <circle class="hair" cx="1430" cy="1140" r="19.5" />
+        <circle class="hair" cx="1450" cy="1128" r="22.5" />
+        <circle class="hair" cx="1470" cy="1140" r="19.5" />
+      
+        <circle class="feature" cx="1438" cy="1150" r="9" />
+        <circle class="feature" cx="1462" cy="1150" r="9" />
+        <line class="feature" x1="1447" y1="1150" x2="1453" y2="1150" />
+        <circle class="dot" cx="1438" cy="1150" r="2.5" />
+        <circle class="dot" cx="1462" cy="1150" r="2.5" />
+      
+      <circle class="dot" cx="1450" cy="1158" r="2" />
+      <path class="feature" d="M 1442 1168 Q 1450 1174 1458 1168" />
+    </g>
+    </svg>
