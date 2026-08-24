@@ -1,10 +1,14 @@
 import mongoose from 'mongoose';
 
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/ai_student_advisor';
-
-if (!MONGODB_URI) {
-  throw new Error('Please define the MONGODB_URI environment variable inside .env');
+function getMongoUri(): string {
+  const uri = process.env.MONGODB_URI;
+  if (!uri) {
+    throw new Error('Please define the MONGODB_URI environment variable inside backend/.env');
+  }
+  return uri;
 }
+
+const MONGODB_URI = getMongoUri();
 
 interface MongooseCache {
   conn: typeof mongoose | null;
