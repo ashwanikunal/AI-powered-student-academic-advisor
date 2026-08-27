@@ -34,13 +34,16 @@ server.get('/health', async () => ({ status: 'ok', service: 'AI Student Advisor 
 // Start server
 const start = async () => {
   try {
-    // Connect to MongoDB before starting
-    await dbConnect();
-    server.log.info('MongoDB connected');
-
     const port = Number(process.env.PORT) || 5000;
     await server.listen({ port, host: '0.0.0.0' });
     console.log(`\n🚀 Backend API running at http://localhost:${port}`);
+
+    try {
+      await dbConnect();
+      server.log.info('MongoDB connected successfully');
+    } catch (dbErr: any) {
+      console.warn(`\n⚠️ MongoDB Connection Warning: ${dbErr.message || dbErr}\n   (Backend is running, but database features require MongoDB at process.env.MONGODB_URI)`);
+    }
   } catch (err) {
     server.log.error(err);
     process.exit(1);
