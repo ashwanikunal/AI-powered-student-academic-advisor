@@ -9,26 +9,31 @@ interface CrowdCanvasProps {
   src: string;
   rows?: number;
   cols?: number;
+  /** Scale factor: how much larger to draw each peep vs its natural sprite size */
+  scale?: number;
 }
 
 type Peep = {
   image: HTMLImageElement;
-  rect: number[];
+  // source rect on the sprite sheet
+  sx: number;
+  sy: number;
+  sw: number;
+  sh: number;
+  // display size (sw * scale, sh * scale)
   width: number;
   height: number;
-  drawArgs: any[];
   x: number;
   y: number;
   anchorY: number;
   scaleX: number;
   walk: any;
-  setRect: (rect: number[]) => void;
   render: (ctx: CanvasRenderingContext2D) => void;
 };
 
 // ─── CrowdCanvas Component ────────────────────────────────────────────────────
 
-const CrowdCanvas = ({ src, rows = 15, cols = 7 }: CrowdCanvasProps) => {
+const CrowdCanvas = ({ src, rows = 15, cols = 7, scale = 2.2 }: CrowdCanvasProps) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
@@ -38,7 +43,7 @@ const CrowdCanvas = ({ src, rows = 15, cols = 7 }: CrowdCanvasProps) => {
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
-    const config = { src, rows, cols };
+    const config = { src, rows, cols, scale };
 
     // UTILS
     const randomRange = (min: number, max: number) =>
@@ -100,50 +105,40 @@ const CrowdCanvas = ({ src, rows = 15, cols = 7 }: CrowdCanvasProps) => {
 
     const walks = [normalWalk];
 
-    // FACTORY
+    // FACTORY — each peep knows its source rect and display size
     const createPeep = ({
       image,
-      rect,
+      sx, sy, sw, sh,
     }: {
       image: HTMLImageElement;
-      rect: number[];
+      sx: number; sy: number; sw: number; sh: number;
     }): Peep => {
+      const displayW = sw * config.scale;
+      const displayH = sh * config.scale;
+
       const peep: Peep = {
         image,
-        rect: [],
-        width: 0,
-        height: 0,
-        drawArgs: [],
+        sx, sy, sw, sh,
+        width: displayW,
+        height: displayH,
         x: 0,
         y: 0,
         anchorY: 0,
         scaleX: 1,
         walk: null,
-        setRect: (r: number[]) => {
-          peep.rect = r;
-          peep.width = r[2];
-          peep.height = r[3];
-          peep.drawArgs = [peep.image, ...r, 0, 0, peep.width, peep.height];
-        },
         render: (ctx: CanvasRenderingContext2D) => {
           ctx.save();
           ctx.translate(peep.x, peep.y);
           ctx.scale(peep.scaleX, 1);
           ctx.drawImage(
             peep.image,
-            peep.rect[0],
-            peep.rect[1],
-            peep.rect[2],
-            peep.rect[3],
-            0,
-            0,
-            peep.width,
-            peep.height,
+            peep.sx, peep.sy, peep.sw, peep.sh, // source rect
+            0, 0, peep.width, peep.height,        // destination (scaled up)
           );
           ctx.restore();
         },
       };
-      peep.setRect(rect);
+
       return peep;
     };
 
@@ -156,21 +151,21 @@ const CrowdCanvas = ({ src, rows = 15, cols = 7 }: CrowdCanvasProps) => {
 
     const createPeeps = () => {
       const { rows, cols } = config;
-      const { naturalWidth: width, naturalHeight: height } = img;
+      const { naturalWidth: imgW, naturalHeight: imgH } = img;
+      const cellW = imgW / rows;
+      const cellH = imgH / cols;
       const total = rows * cols;
-      const rectWidth = width / rows;
-      const rectHeight = height / cols;
 
       for (let i = 0; i < total; i++) {
+        const col = i % rows;   // column index (left → right)
+        const row = (i / rows) | 0; // row index (top → bottom)
         allPeeps.push(
           createPeep({
             image: img,
-            rect: [
-              (i % rows) * rectWidth,
-              ((i / rows) | 0) * rectHeight,
-              rectWidth,
-              rectHeight,
-            ],
+            sx: col * cellW,
+            sy: row * cellH,
+            sw: cellW,
+            sh: cellH,
           }),
         );
       }
@@ -264,7 +259,7 @@ const Skiper39 = () => {
         </span>
       </div>
       <div className="absolute bottom-0 h-full w-screen">
-        <CrowdCanvas src="/images/peeps/all-peeps.png" rows={15} cols={7} />
+        <CrowdCanvas src="/images/peeps/all-peeps.png" rows={15} cols={7} scale={2.2} />
       </div>
     </div>
   );
