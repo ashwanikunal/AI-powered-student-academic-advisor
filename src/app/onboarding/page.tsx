@@ -95,7 +95,7 @@ export default function OnboardingPage() {
               <circle cx="16.7" cy="20.8" r="1.45" />
             </g>
           </svg>
-          <span>Vesper AI Advisor</span>
+          <span>Sarathi AI Advisor</span>
         </Link>
         <div className="text-xs text-muted-foreground font-mono">
           STEP {step} OF 9

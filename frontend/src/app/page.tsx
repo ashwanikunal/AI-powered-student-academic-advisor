@@ -47,7 +47,7 @@ export default function LandingPage() {
           <Link
             href="/"
             className="logo appear appear--scale inline-flex items-center gap-2 text-[15.5px] font-semibold tracking-tight text-white"
-            aria-label="Vesper.ai"
+            aria-label="Sarathi.ai"
           >
             <svg
               className="w-[22px] h-[22px]"
@@ -62,7 +62,7 @@ export default function LandingPage() {
               </g>
             </svg>
             <span>
-              Vesper<span className="font-normal text-muted-foreground">.ai</span>
+              Sarathi<span className="font-normal text-muted-foreground">.ai</span>
             </span>
           </Link>
         </div>

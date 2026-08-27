@@ -83,7 +83,7 @@ export default function DashboardPage() {
                   <circle cx="16.7" cy="20.8" r="1.45" />
                 </g>
               </svg>
-              <span>Vesper Advisor</span>
+              <span>Sarathi Advisor</span>
             </Link>
 
             <nav className="hidden md:flex items-center gap-1 text-xs text-zinc-400">

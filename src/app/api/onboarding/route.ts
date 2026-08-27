@@ -43,11 +43,11 @@ export async function POST(req: Request) {
     } = body;
 
     // 1. Find or create user
-    let user = await User.findOne({ email: email || 'student@vesper.ai' });
+    let user = await User.findOne({ email: email || 'student@sarathi.ai' });
     if (!user) {
       user = await User.create({
         name: name || 'Student User',
-        email: email || 'student@vesper.ai',
+        email: email || 'student@sarathi.ai',
       });
     }
 
