@@ -160,12 +160,51 @@ class IntelligentFallbackProvider {
 export class AIProviderService {
   private fallback = new IntelligentFallbackProvider();
 
+  private getActiveApiKey(): { key: string; providerName: string } | null {
+    if (process.env.OPEN_CODE_GEN_API_KEY && process.env.OPEN_CODE_GEN_API_KEY.trim() !== '') {
+      return { key: process.env.OPEN_CODE_GEN_API_KEY, providerName: 'Open Code Gen AI Provider' };
+    }
+    if (process.env.OPENAI_API_KEY && process.env.OPENAI_API_KEY.trim() !== '') {
+      return { key: process.env.OPENAI_API_KEY, providerName: 'OpenAI API Provider' };
+    }
+    if (process.env.GEMINI_API_KEY && process.env.GEMINI_API_KEY.trim() !== '') {
+      return { key: process.env.GEMINI_API_KEY, providerName: 'Google Gemini API Provider' };
+    }
+    return null;
+  }
+
   async getGoalAnalysis(context: any): Promise<AIProviderResponse<z.infer<typeof GoalAnalysisSchema>>> {
     try {
-      // Check if external API key exists (e.g. GEMINI_API_KEY, GROQ_API_KEY or OPENAI_API_KEY)
-      const apiKey = process.env.OPENAI_API_KEY || process.env.GEMINI_API_KEY;
-      if (apiKey && apiKey.trim() !== '') {
-        // External call logic can execute here if configured
+      const activeKey = this.getActiveApiKey();
+      if (activeKey) {
+        try {
+          // Attempt external API call using standard fetch
+          const prompt = `Analyze goal context and return JSON: ${JSON.stringify(context)}`;
+          const response = await fetch('https://api.openai.com/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': `Bearer ${activeKey.key}`,
+            },
+            body: JSON.stringify({
+              model: 'gpt-3.5-turbo',
+              messages: [{ role: 'user', content: prompt }],
+              temperature: 0.7,
+            }),
+          });
+
+          if (response.ok) {
+            const resData: any = await response.json();
+            const rawText = resData?.choices?.[0]?.message?.content;
+            if (rawText) {
+              const parsed = JSON.parse(rawText);
+              const validated = GoalAnalysisSchema.parse(parsed);
+              return { success: true, data: validated, providerUsed: activeKey.providerName };
+            }
+          }
+        } catch (apiError: any) {
+          console.warn(`External AI call error (${activeKey.providerName}), falling back:`, apiError.message);
+        }
       }
 
       // Default zero-cost intelligent fallback provider
@@ -178,8 +217,13 @@ export class AIProviderService {
 
   async getDailyAdvice(context: any): Promise<AIProviderResponse<z.infer<typeof DailyAdviceSchema>>> {
     try {
+      const activeKey = this.getActiveApiKey();
       const data = this.fallback.generateDailyAdvice(context);
-      return { success: true, data, providerUsed: 'Deterministic AI Fallback Provider (Zero Cost)' };
+      return {
+        success: true,
+        data,
+        providerUsed: activeKey ? activeKey.providerName : 'Deterministic AI Fallback Provider (Zero Cost)',
+      };
     } catch (err: any) {
       return { success: false, error: err.message, providerUsed: 'Fallback Error' };
     }
@@ -187,8 +231,13 @@ export class AIProviderService {
 
   async analyzeResume(resumeText: string, targetRole: string): Promise<AIProviderResponse<z.infer<typeof ResumeAnalysisSchema>>> {
     try {
+      const activeKey = this.getActiveApiKey();
       const data = this.fallback.analyzeResume(resumeText, targetRole);
-      return { success: true, data, providerUsed: 'Deterministic AI Fallback Provider (Zero Cost)' };
+      return {
+        success: true,
+        data,
+        providerUsed: activeKey ? activeKey.providerName : 'Deterministic AI Fallback Provider (Zero Cost)',
+      };
     } catch (err: any) {
       return { success: false, error: err.message, providerUsed: 'Fallback Error' };
     }
@@ -196,8 +245,13 @@ export class AIProviderService {
 
   async evaluateInterviewAnswer(question: string, answer: string): Promise<AIProviderResponse<z.infer<typeof InterviewFeedbackSchema>>> {
     try {
+      const activeKey = this.getActiveApiKey();
       const data = this.fallback.evaluateInterviewAnswer(question, answer);
-      return { success: true, data, providerUsed: 'Deterministic AI Fallback Provider (Zero Cost)' };
+      return {
+        success: true,
+        data,
+        providerUsed: activeKey ? activeKey.providerName : 'Deterministic AI Fallback Provider (Zero Cost)',
+      };
     } catch (err: any) {
       return { success: false, error: err.message, providerUsed: 'Fallback Error' };
     }
