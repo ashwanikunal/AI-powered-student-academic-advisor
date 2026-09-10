@@ -41,7 +41,7 @@ An intelligent, full-stack, AI-driven academic and career advisory platform desi
 ---
 
 ##  use case diagram
-![AI-Powered Student Academic & Career Advisor Use Case Diagram](docs/use-case-diagram.png)
+![AI-Powered Student Academic & Career Advisor Use Case Diagram](docs/use_case.png)
 
 ## 📁 Repository Architecture
 
