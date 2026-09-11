@@ -1,4 +1,4 @@
-# 🎓 AI-Powered Student Academic & Career Advisor
+#  AI-Powered Student Academic & Career Advisor
 
 [![Next.js](https://img.shields.io/badge/Frontend-Next.js%2014-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![Fastify](https://img.shields.io/badge/Backend-Fastify%20v4-000000?style=for-the-badge&logo=fastify)](https://www.fastify.io/)
@@ -199,5 +199,7 @@ Contributions are welcome! Please feel free to open issues or submit pull reques
 ---
 
 ## 📄 License
-
 Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
