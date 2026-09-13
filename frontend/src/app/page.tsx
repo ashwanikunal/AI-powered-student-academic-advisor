@@ -214,21 +214,21 @@ export default function LandingPage() {
       </header>
 
       {/* Hero Section Container */}
-      <div className="relative w-full overflow-hidden flex flex-col items-center justify-center pt-12 pb-8 border-b border-[var(--border-soft)]">
+      <div className="relative w-full overflow-hidden flex flex-col items-center justify-center pt-10 pb-12 border-b border-[var(--border-soft)]">
         {/* Animated Background Crowd Canvas Container */}
-        <div className="absolute inset-0 pointer-events-none opacity-60 dark:opacity-75 z-0 h-full w-full">
+        <div className="absolute inset-0 pointer-events-none opacity-75 dark:opacity-85 z-0 h-full w-full">
           <CrowdCanvas />
         </div>
 
-        {/* Hero Copy */}
-        <main className="hero relative z-10 flex flex-col items-center justify-center text-center px-6 py-12 max-w-[860px] mx-auto">
+        {/* Hero Copy with Golden Glassmorphism Effect */}
+        <main className="hero relative z-10 flex flex-col items-center justify-center text-center px-6 py-10 sm:py-12 max-w-[880px] mx-auto rounded-3xl backdrop-blur-md bg-[rgba(255,255,255,0.6)] dark:bg-[rgba(10,12,18,0.55)] border border-amber-500/20 dark:border-amber-500/30 shadow-[0_8px_32px_rgba(0,0,0,0.4),0_0_40px_rgba(245,158,11,0.12)] transition-all duration-300">
           {/* Badge */}
-          <div className="badge-liquid appear appear--pop inline-flex items-center gap-2">
+          <div className="badge-liquid appear appear--pop inline-flex items-center gap-2 border border-amber-500/30 bg-amber-500/10 text-amber-700 dark:text-amber-300 font-medium px-3.5 py-1 rounded-full">
             <svg
               width={16}
               height={16}
               style={{ width: "16px", height: "16px", minWidth: "16px", minHeight: "16px" }}
-              className="w-4 h-4 shrink-0 fill-[var(--text)] filter drop-shadow-[0_0_3px_rgba(255,255,255,0.45)]"
+              className="w-4 h-4 shrink-0 fill-amber-500 dark:fill-amber-400 filter drop-shadow-[0_0_6px_rgba(245,158,11,0.6)]"
               viewBox="0 0 24 24"
             >
               <path d="M12 2.6C12.55 2.6 12.88 3.15 13.08 4.7c.62 4.7 1.52 5.6 6.22 6.22 1.55.2 2.1.53 2.1 1.08s-.55.88-2.1 1.08c-4.7.62-5.6 1.52-6.22 6.22-.2 1.55-.53 2.1-1.08 2.1s-.88-.55-1.08-2.1c-.62-4.7-1.52-5.6-6.22-6.22C3.15 12.88 2.6 12.55 2.6 12s.55-.88 2.1-1.08c4.7-.62 5.6-1.52 6.22-6.22C11.12 3.15 11.45 2.6 12 2.6Z" />
@@ -237,9 +237,9 @@ export default function LandingPage() {
           </div>
 
           {/* Masked Headline */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight leading-[1.12] text-[var(--text)] flex flex-col items-center">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight leading-[1.12] text-[var(--text)] flex flex-col items-center mt-3">
             <span className="headline-line block overflow-hidden appear appear--mask">
-              Train <em className="font-serif-italic font-normal text-[var(--muted)] not-italic text-[1.08em] -tracking-[0.03em] mx-1">AI agents</em> on your
+              Train <em className="font-serif-italic font-semibold bg-gradient-to-r from-amber-500 via-amber-400 to-amber-600 dark:from-amber-300 dark:via-amber-400 dark:to-amber-500 bg-clip-text text-transparent not-italic text-[1.08em] -tracking-[0.03em] mx-1">AI agents</em> on your
             </span>
             <span className="headline-line block overflow-hidden appear appear--mask">
               academic & career journey.
@@ -255,7 +255,7 @@ export default function LandingPage() {
           <div className="hero-actions flex flex-wrap items-center justify-center gap-3 mt-7">
             <Link
               href="/onboarding"
-              className="btn-liquid btn-solid hero-solid-btn appear appear--btn h-[42px] px-[18px]"
+              className="btn-liquid btn-solid hero-solid-btn appear appear--btn h-[42px] px-[18px] !bg-gradient-to-r !from-amber-400 !via-amber-500 !to-amber-600 !text-slate-950 font-bold shadow-[0_0_20px_rgba(245,158,11,0.35)] hover:shadow-[0_0_30px_rgba(245,158,11,0.55)] transition-all"
             >
               Start for Free
             </Link>

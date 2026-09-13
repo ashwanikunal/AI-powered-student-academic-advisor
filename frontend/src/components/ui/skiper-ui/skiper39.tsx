@@ -13,7 +13,7 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [isDarkTheme, setIsDarkTheme] = useState(true);
 
-  // Monitor document theme to toggle crisp white line art on Dark mode vs black line art on Light mode
+  // Monitor document theme for low-contrast watermark style in Dark mode vs clean line art in Light mode
   useEffect(() => {
     const updateTheme = () => {
       const isDark = document.documentElement.classList.contains("dark") || 
@@ -325,7 +325,9 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
     <canvas
       ref={canvasRef}
       style={{
-        filter: isDarkTheme ? "invert(1)" : "none",
+        filter: isDarkTheme
+          ? "invert(1) opacity(0.2) brightness(0.85)"
+          : "opacity(0.65)",
       }}
       className="w-full h-full min-h-[350px] pointer-events-none z-0 block transition-all duration-300"
     />

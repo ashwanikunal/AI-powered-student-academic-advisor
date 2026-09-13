@@ -71,17 +71,17 @@ html.light {
 }
 
 html.dark {
-  --bg: #05070c;
+  --bg: #0e0e15;
   --text: #ffffff;
   --muted: #cbd5e1;
   --stat: #f1f5f9;
-  --border: rgba(255, 255, 255, 0.18);
-  --border-soft: rgba(255, 255, 255, 0.14);
-  --card-bg: rgba(15, 23, 42, 0.65);
-  --card-border: rgba(255, 255, 255, 0.14);
-  --nav-bg: rgba(5, 7, 12, 0.88);
+  --border: rgba(255, 255, 255, 0.14);
+  --border-soft: rgba(255, 255, 255, 0.1);
+  --card-bg: rgba(21, 21, 32, 0.4);
+  --card-border: rgba(255, 255, 255, 0.12);
+  --nav-bg: rgba(14, 14, 21, 0.88);
   --pill-bg: linear-gradient(105deg, #090d16 0%, #1e293b 48%, #334155 100%);
-  --pill-border: rgba(255, 255, 255, 0.25);
+  --pill-border: rgba(255, 255, 255, 0.22);
   --pill-text: #ffffff;
   --pill-hover-bg: linear-gradient(105deg, #1e293b 0%, #334155 45%, #475569 100%);
   --btn-solid-bg: linear-gradient(180deg, #ffffff 0%, #f1f5f9 48%, #e2e8f0 100%);
@@ -90,7 +90,7 @@ html.dark {
   --btn-ghost-text: #ffffff;
   --badge-bg: linear-gradient(90deg, #334155 0%, #1e293b 52%, #090d16 100%);
   --badge-text: #ffffff;
-  --accordion-bg: rgba(15, 23, 42, 0.65);
+  --accordion-bg: rgba(21, 21, 32, 0.5);
 }
 
 html, body {
