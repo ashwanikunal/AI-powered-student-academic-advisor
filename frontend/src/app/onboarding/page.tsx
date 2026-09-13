@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { ArrowRight, ArrowLeft, Check, Sparkles, GraduationCap, Target, BookOpen, Cpu, Calendar, Clock } from "lucide-react";
+import { ArrowRight, ArrowLeft, Check, Sparkles, GraduationCap, Target, BookOpen, Cpu, Calendar, Clock, Github } from "lucide-react";
 
 export default function OnboardingPage() {
   const router = useRouter();
@@ -608,8 +608,18 @@ export default function OnboardingPage() {
       </main>
 
       {/* Footer Disclaimer */}
-      <footer className="text-center text-xs text-zinc-500 z-10">
-        AI recommendations adapt dynamically based on your ongoing task progress and upcoming exams.
+      <footer className="text-center text-xs text-zinc-500 z-10 flex flex-col sm:flex-row items-center justify-center gap-3 py-4">
+        <span>AI recommendations adapt dynamically based on your ongoing task progress and upcoming exams.</span>
+        <a
+          href="https://github.com/ashwanikunal/AI-powered-student-academic-advisor"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full border border-zinc-800 bg-zinc-900/60 hover:bg-zinc-800 hover:border-zinc-700 text-zinc-400 hover:text-white transition-all duration-200 text-xs font-medium group"
+          aria-label="GitHub Repository - Open Source"
+        >
+          <Github className="w-3.5 h-3.5 text-zinc-300 group-hover:scale-110 transition-transform duration-200" />
+          <span>Open Source</span>
+        </a>
       </footer>
     </div>
   );

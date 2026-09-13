@@ -1,7 +1,9 @@
 "use client";
+// Page main entry
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import { Github } from "lucide-react";
 import CrowdCanvas from "@/components/CrowdCanvas";
 import ThemeToggle from "@/components/ThemeToggle";
 import BenefitsSection from "@/components/BenefitsSection";
@@ -365,7 +367,20 @@ export default function LandingPage() {
             <span className="font-semibold text-[var(--text)]">Sarathi.ai</span>
             <span>— AI-Powered Student Academic & Career Advisor</span>
           </div>
-          <p>© {new Date().getFullYear()} Sarathi.ai. All rights reserved.</p>
+
+          <div className="flex items-center gap-4 sm:gap-6 flex-wrap justify-center">
+            <a
+              href="https://github.com/ashwanikunal/AI-powered-student-academic-advisor"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-[var(--border-soft)] bg-[var(--card-bg)] hover:bg-[var(--card-hover)] hover:border-[var(--accent,#6366f1)] hover:text-[var(--text)] transition-all duration-200 text-xs font-medium group"
+              aria-label="GitHub Repository - Open Source"
+            >
+              <Github className="w-4 h-4 text-[var(--text)] group-hover:scale-110 transition-transform duration-200" />
+              <span>Open Source</span>
+            </a>
+            <p>© {new Date().getFullYear()} Sarathi.ai. All rights reserved.</p>
+          </div>
         </div>
       </footer>
     </div>
