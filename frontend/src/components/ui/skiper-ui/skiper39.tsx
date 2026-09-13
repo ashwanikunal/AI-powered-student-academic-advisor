@@ -1,7 +1,7 @@
 "use client";
 
 import { gsap } from "gsap";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 interface CrowdCanvasProps {
   src?: string;
@@ -11,6 +11,26 @@ interface CrowdCanvasProps {
 
 const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 }: CrowdCanvasProps) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const [isInverted, setIsInverted] = useState(true);
+
+  // Monitor theme changes to toggle invert filter for black vs white background contrast
+  useEffect(() => {
+    const updateFilter = () => {
+      const isDark = document.documentElement.classList.contains("dark") || 
+                     !document.documentElement.classList.contains("light");
+      setIsInverted(isDark);
+    };
+
+    updateFilter();
+
+    const observer = new MutationObserver(updateFilter);
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["class"],
+    });
+
+    return () => observer.disconnect();
+  }, []);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -39,7 +59,7 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
     // TWEEN FACTORIES
     const resetPeep = ({ stage, peep }: { stage: any; peep: any }) => {
       const direction = Math.random() > 0.5 ? 1 : -1;
-      const offsetY = 40 - 180 * gsap.parseEase("power2.in")(Math.random());
+      const offsetY = 50 - 180 * gsap.parseEase("power2.in")(Math.random());
       const startY = stage.height - peep.height + offsetY;
       let startX: number;
       let endX: number;
@@ -67,7 +87,7 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
 
     const normalWalk = ({ peep, props }: { peep: any; props: any }) => {
       const { startX, startY, endX } = props;
-      const xDuration = randomRange(8, 14);
+      const xDuration = randomRange(9, 15);
       const yDuration = 0.25;
 
       const tl = gsap.timeline();
@@ -134,10 +154,9 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
         walk: null,
         setRect: (rect: number[]) => {
           peep.rect = rect;
-          // Scale character size for proper proportions on hero canvas
           const scale = 0.55;
-          peep.width = rect[2] * scale;
-          peep.height = rect[3] * scale;
+          peep.width = (rect[2] || 150) * scale;
+          peep.height = (rect[3] || 250) * scale;
           peep.drawArgs = [peep.image, ...rect, 0, 0, peep.width, peep.height];
         },
         render: (ctx: CanvasRenderingContext2D) => {
@@ -164,7 +183,7 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
     };
 
     // MAIN
-    const img = document.createElement("img");
+    const img = new Image();
     const stage = {
       width: 0,
       height: 0,
@@ -176,7 +195,8 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
 
     const createPeeps = () => {
       const { rows, cols } = config;
-      const { naturalWidth: width, naturalHeight: height } = img;
+      const width = img.naturalWidth || img.width || 2800;
+      const height = img.naturalHeight || img.height || 2100;
       if (!width || !height) return;
 
       const total = rows * cols;
@@ -281,7 +301,7 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
     img.onload = init;
     img.src = config.src;
 
-    if (img.complete && img.naturalWidth > 0) {
+    if (img.complete && (img.naturalWidth > 0 || img.width > 0)) {
       init();
     }
 
@@ -300,7 +320,10 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
   return (
     <canvas
       ref={canvasRef}
-      className="w-full h-full pointer-events-none z-0 block dark:invert dark:brightness-125 dark:contrast-125 transition-all duration-300"
+      style={{
+        filter: isInverted ? "invert(1) brightness(1.3) contrast(1.1)" : "none",
+      }}
+      className="w-full h-full pointer-events-none z-0 block transition-all duration-300"
     />
   );
 };
