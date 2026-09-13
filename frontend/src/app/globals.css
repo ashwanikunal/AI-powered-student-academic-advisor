@@ -48,15 +48,15 @@
 }
 
 html.light {
-  --bg: #f1f5f9;
+  --bg: #F3F6FA;
   --text: #090d16;
   --muted: #334155;
   --stat: #1e293b;
   --border: rgba(15, 23, 42, 0.16);
   --border-soft: rgba(15, 23, 42, 0.12);
-  --card-bg: rgba(255, 255, 255, 0.92);
+  --card-bg: rgba(255, 255, 255, 0.7);
   --card-border: rgba(15, 23, 42, 0.12);
-  --nav-bg: rgba(241, 245, 249, 0.9);
+  --nav-bg: rgba(243, 246, 250, 0.9);
   --pill-bg: linear-gradient(105deg, #ffffff 0%, #f8fafc 48%, #e2e8f0 100%);
   --pill-border: rgba(15, 23, 42, 0.22);
   --pill-text: #090d16;
