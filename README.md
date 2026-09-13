@@ -1,12 +1,13 @@
-#  AI-Powered Student Academic & Career Advisor
+# 🎓 Sarathi.ai — AI-Powered Student Academic & Career Advisor
 
+[![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-2563EB?style=for-the-badge)](https://github.com/ashwanikunal/AI-powered-student-academic-advisor)
 [![Next.js](https://img.shields.io/badge/Frontend-Next.js%2014-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![Fastify](https://img.shields.io/badge/Backend-Fastify%20v4-000000?style=for-the-badge&logo=fastify)](https://www.fastify.io/)
 [![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 [![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/)
 
-An intelligent, full-stack, AI-driven academic and career advisory platform designed to help students optimize study schedules, boost placement readiness, analyze resumes, practice mock interviews, and systematically eliminate academic weak spots.
+**Sarathi.ai** is an intelligent, open-source, full-stack AI platform designed to empower students on their academic and career journeys. It optimizes study schedules, boosts placement readiness, analyzes resumes against ATS requirements, hosts AI mock interviews, and systematically eliminates course topic weaknesses.
 
 ---
 
@@ -99,7 +100,7 @@ Ensure you have the following installed on your system:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/AI-powered-student-academic-advisor.git
+   git clone https://github.com/ashwanikunal/AI-powered-student-academic-advisor.git
    cd AI-powered-student-academic-advisor
    ```
 
