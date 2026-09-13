@@ -13,7 +13,7 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [isInverted, setIsInverted] = useState(true);
 
-  // Monitor theme changes to toggle invert filter for black vs white background contrast
+  // Monitor theme changes for black vs white line art contrast
   useEffect(() => {
     const updateFilter = () => {
       const isDark = document.documentElement.classList.contains("dark") || 
@@ -59,7 +59,7 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
     // TWEEN FACTORIES
     const resetPeep = ({ stage, peep }: { stage: any; peep: any }) => {
       const direction = Math.random() > 0.5 ? 1 : -1;
-      const offsetY = 50 - 180 * gsap.parseEase("power2.in")(Math.random());
+      const offsetY = 100 - 250 * gsap.parseEase("power2.in")(Math.random());
       const startY = stage.height - peep.height + offsetY;
       let startX: number;
       let endX: number;
@@ -87,11 +87,11 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
 
     const normalWalk = ({ peep, props }: { peep: any; props: any }) => {
       const { startX, startY, endX } = props;
-      const xDuration = randomRange(9, 15);
+      const xDuration = 10;
       const yDuration = 0.25;
 
       const tl = gsap.timeline();
-      tl.timeScale(randomRange(0.6, 1.4));
+      tl.timeScale(randomRange(0.5, 1.5));
       tl.to(
         peep,
         {
@@ -154,26 +154,27 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
         walk: null,
         setRect: (rect: number[]) => {
           peep.rect = rect;
-          const scale = 0.55;
-          peep.width = (rect[2] || 150) * scale;
-          peep.height = (rect[3] || 250) * scale;
+          peep.width = rect[2];
+          peep.height = rect[3];
           peep.drawArgs = [peep.image, ...rect, 0, 0, peep.width, peep.height];
         },
         render: (ctx: CanvasRenderingContext2D) => {
           ctx.save();
           ctx.translate(peep.x, peep.y);
           ctx.scale(peep.scaleX, 1);
-          ctx.drawImage(
-            peep.image,
-            peep.rect[0],
-            peep.rect[1],
-            peep.rect[2],
-            peep.rect[3],
-            0,
-            0,
-            peep.width,
-            peep.height,
-          );
+          if (peep.image && peep.image.complete) {
+            ctx.drawImage(
+              peep.image,
+              peep.rect[0],
+              peep.rect[1],
+              peep.rect[2],
+              peep.rect[3],
+              0,
+              0,
+              peep.width,
+              peep.height,
+            );
+          }
           ctx.restore();
         },
       };
@@ -195,8 +196,7 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
 
     const createPeeps = () => {
       const { rows, cols } = config;
-      const width = img.naturalWidth || img.width || 2800;
-      const height = img.naturalHeight || img.height || 2100;
+      const { naturalWidth: width, naturalHeight: height } = img;
       if (!width || !height) return;
 
       const total = rows * cols;
@@ -274,7 +274,8 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
       if (!canvas) return;
       const ratio = window.devicePixelRatio || 1;
       stage.width = canvas.clientWidth || window.innerWidth;
-      stage.height = canvas.clientHeight || 350;
+      const h = canvas.clientHeight || canvas.parentElement?.clientHeight || 450;
+      stage.height = h > 50 ? h : 450;
       canvas.width = stage.width * ratio;
       canvas.height = stage.height * ratio;
 
@@ -301,14 +302,17 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
     img.onload = init;
     img.src = config.src;
 
-    if (img.complete && (img.naturalWidth > 0 || img.width > 0)) {
+    if (img.complete && img.naturalWidth > 0) {
       init();
     }
+
+    const timer = setTimeout(() => resize(), 200);
 
     const handleResize = () => resize();
     window.addEventListener("resize", handleResize);
 
     return () => {
+      clearTimeout(timer);
       window.removeEventListener("resize", handleResize);
       gsap.ticker.remove(render);
       crowd.forEach((peep) => {
@@ -321,9 +325,9 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
     <canvas
       ref={canvasRef}
       style={{
-        filter: isInverted ? "invert(1) brightness(1.3) contrast(1.1)" : "none",
+        filter: isInverted ? "invert(1) brightness(1.2)" : "none",
       }}
-      className="w-full h-full pointer-events-none z-0 block transition-all duration-300"
+      className="w-full h-full min-h-[350px] pointer-events-none z-0 block transition-all duration-300"
     />
   );
 };

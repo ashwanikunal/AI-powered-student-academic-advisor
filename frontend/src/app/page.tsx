@@ -217,7 +217,7 @@ export default function LandingPage() {
       {/* Hero Section Container */}
       <div className="relative w-full overflow-hidden flex flex-col items-center justify-center pt-12 pb-8 border-b border-[var(--border-soft)]">
         {/* Animated Background Crowd Canvas Container */}
-        <div className="absolute inset-0 pointer-events-none opacity-80 z-0 h-full w-full">
+        <div className="absolute inset-0 pointer-events-none opacity-35 dark:opacity-45 z-0 h-full w-full">
           <CrowdCanvas />
         </div>
 
