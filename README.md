@@ -1,4 +1,4 @@
-# 🎓 AI-Powered Student Academic & Career Advisor
+#  AI-Powered Student Academic & Career Advisor
 
 [![Next.js](https://img.shields.io/badge/Frontend-Next.js%2014-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![Fastify](https://img.shields.io/badge/Backend-Fastify%20v4-000000?style=for-the-badge&logo=fastify)](https://www.fastify.io/)
@@ -39,6 +39,9 @@ An intelligent, full-stack, AI-driven academic and career advisory platform desi
 - **AI Integrations**: Multi-provider AI service architecture supporting Google Gemini API, OpenAI API, Open Code Gen, and a zero-cost intelligent deterministic fallback engine.
 
 ---
+
+##  use case diagram
+![AI-Powered Student Academic & Career Advisor Use Case Diagram](docs/use_case.png)
 
 ## 📁 Repository Architecture
 
@@ -196,5 +199,7 @@ Contributions are welcome! Please feel free to open issues or submit pull reques
 ---
 
 ## 📄 License
-
 Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
