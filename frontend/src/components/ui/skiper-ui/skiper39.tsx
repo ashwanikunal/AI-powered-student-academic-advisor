@@ -11,19 +11,19 @@ interface CrowdCanvasProps {
 
 const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 }: CrowdCanvasProps) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const [isInverted, setIsInverted] = useState(true);
+  const [isDarkTheme, setIsDarkTheme] = useState(true);
 
-  // Monitor theme changes for black vs white line art contrast
+  // Monitor document theme to toggle crisp white line art on Dark mode vs black line art on Light mode
   useEffect(() => {
-    const updateFilter = () => {
+    const updateTheme = () => {
       const isDark = document.documentElement.classList.contains("dark") || 
                      !document.documentElement.classList.contains("light");
-      setIsInverted(isDark);
+      setIsDarkTheme(isDark);
     };
 
-    updateFilter();
+    updateTheme();
 
-    const observer = new MutationObserver(updateFilter);
+    const observer = new MutationObserver(updateTheme);
     observer.observe(document.documentElement, {
       attributes: true,
       attributeFilter: ["class"],
@@ -48,12 +48,12 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
     // UTILS
     const randomRange = (min: number, max: number) =>
       min + Math.random() * (max - min);
-    const randomIndex = (array: any[]) => randomRange(0, array.length) | 0;
     const removeFromArray = (array: any[], i: number) => array.splice(i, 1)[0];
     const removeItemFromArray = (array: any[], item: any) =>
       removeFromArray(array, array.indexOf(item));
     const removeRandomFromArray = (array: any[]) =>
       removeFromArray(array, randomIndex(array));
+    const randomIndex = (array: any[]) => randomRange(0, array.length) | 0;
     const getRandomFromArray = (array: any[]) => array[randomIndex(array) | 0];
 
     // TWEEN FACTORIES
@@ -325,7 +325,7 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
     <canvas
       ref={canvasRef}
       style={{
-        filter: isInverted ? "invert(1) brightness(1.2)" : "none",
+        filter: isDarkTheme ? "invert(1)" : "none",
       }}
       className="w-full h-full min-h-[350px] pointer-events-none z-0 block transition-all duration-300"
     />
@@ -335,7 +335,7 @@ const CrowdCanvas = ({ src = "/images/peeps/all-peeps.png", rows = 15, cols = 7 
 const Skiper39 = () => {
   return (
     <div className="relative h-full w-full bg-transparent">
-      <div className="absolute bottom-0 h-full w-full">
+      <div className="absolute bottom-0 h-full w-screen">
         <CrowdCanvas src="/images/peeps/all-peeps.png" rows={15} cols={7} />
       </div>
     </div>

@@ -48,49 +48,49 @@
 }
 
 html.light {
-  --bg: #f8fafc;
-  --text: #0f172a;
-  --muted: #64748b;
-  --stat: #334155;
-  --border: rgba(15, 23, 42, 0.14);
-  --border-soft: rgba(15, 23, 42, 0.08);
-  --card-bg: rgba(255, 255, 255, 0.85);
-  --card-border: rgba(15, 23, 42, 0.1);
-  --nav-bg: rgba(255, 255, 255, 0.85);
-  --pill-bg: linear-gradient(105deg, #ffffff 0%, #f1f5f9 48%, #e2e8f0 100%);
-  --pill-border: rgba(15, 23, 42, 0.2);
-  --pill-text: #0f172a;
+  --bg: #f1f5f9;
+  --text: #090d16;
+  --muted: #334155;
+  --stat: #1e293b;
+  --border: rgba(15, 23, 42, 0.16);
+  --border-soft: rgba(15, 23, 42, 0.12);
+  --card-bg: rgba(255, 255, 255, 0.92);
+  --card-border: rgba(15, 23, 42, 0.12);
+  --nav-bg: rgba(241, 245, 249, 0.9);
+  --pill-bg: linear-gradient(105deg, #ffffff 0%, #f8fafc 48%, #e2e8f0 100%);
+  --pill-border: rgba(15, 23, 42, 0.22);
+  --pill-text: #090d16;
   --pill-hover-bg: linear-gradient(105deg, #ffffff 0%, #e2e8f0 45%, #cbd5e1 100%);
-  --btn-solid-bg: linear-gradient(180deg, #0f172a 0%, #1e293b 48%, #334155 100%);
+  --btn-solid-bg: linear-gradient(180deg, #090d16 0%, #1e293b 48%, #334155 100%);
   --btn-solid-text: #ffffff;
-  --btn-ghost-bg: linear-gradient(135deg, rgba(15, 23, 42, 0.06), rgba(15, 23, 42, 0.12));
-  --btn-ghost-text: #0f172a;
+  --btn-ghost-bg: linear-gradient(135deg, rgba(15, 23, 42, 0.08), rgba(15, 23, 42, 0.16));
+  --btn-ghost-text: #090d16;
   --badge-bg: linear-gradient(90deg, #e2e8f0 0%, #cbd5e1 52%, #94a3b8 100%);
-  --badge-text: #0f172a;
-  --accordion-bg: rgba(255, 255, 255, 0.9);
+  --badge-text: #090d16;
+  --accordion-bg: rgba(255, 255, 255, 0.95);
 }
 
 html.dark {
-  --bg: #000000;
+  --bg: #05070c;
   --text: #ffffff;
-  --muted: #9a9a9a;
-  --stat: #d8d8d8;
-  --border: rgba(255, 255, 255, 0.16);
-  --border-soft: rgba(255, 255, 255, 0.12);
-  --card-bg: rgba(255, 255, 255, 0.03);
-  --card-border: rgba(255, 255, 255, 0.1);
-  --nav-bg: rgba(0, 0, 0, 0.8);
-  --pill-bg: linear-gradient(105deg, #050505 0%, #2a2a2a 48%, #4a4a4a 100%);
-  --pill-border: rgba(198, 198, 198, 0.55);
-  --pill-text: #f3f3f3;
-  --pill-hover-bg: linear-gradient(105deg, #111111 0%, #3a3a3a 45%, #6a6a6a 100%);
-  --btn-solid-bg: linear-gradient(180deg, #ffffff 0%, #e7e7e7 48%, #cfcfcf 100%);
-  --btn-solid-text: #111111;
-  --btn-ghost-bg: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.45) 50%, rgba(160, 175, 200, 0.08));
+  --muted: #cbd5e1;
+  --stat: #f1f5f9;
+  --border: rgba(255, 255, 255, 0.18);
+  --border-soft: rgba(255, 255, 255, 0.14);
+  --card-bg: rgba(15, 23, 42, 0.65);
+  --card-border: rgba(255, 255, 255, 0.14);
+  --nav-bg: rgba(5, 7, 12, 0.88);
+  --pill-bg: linear-gradient(105deg, #090d16 0%, #1e293b 48%, #334155 100%);
+  --pill-border: rgba(255, 255, 255, 0.25);
+  --pill-text: #ffffff;
+  --pill-hover-bg: linear-gradient(105deg, #1e293b 0%, #334155 45%, #475569 100%);
+  --btn-solid-bg: linear-gradient(180deg, #ffffff 0%, #f1f5f9 48%, #e2e8f0 100%);
+  --btn-solid-text: #090d16;
+  --btn-ghost-bg: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(15, 23, 42, 0.6) 50%, rgba(255, 255, 255, 0.08));
   --btn-ghost-text: #ffffff;
-  --badge-bg: linear-gradient(90deg, #7d7d7d 0%, #2a2a2a 52%, #0a0a0a 100%);
-  --badge-text: #f2f2f2;
-  --accordion-bg: rgba(255, 255, 255, 0.03);
+  --badge-bg: linear-gradient(90deg, #334155 0%, #1e293b 52%, #090d16 100%);
+  --badge-text: #ffffff;
+  --accordion-bg: rgba(15, 23, 42, 0.65);
 }
 
 html, body {
